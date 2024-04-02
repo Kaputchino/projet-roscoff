@@ -1,6 +1,6 @@
 # projet-roscoff
 
-Assignés : Andrés, Gabriel, Adrian, Marielle ou XXXX
+Assignés : Andreas, Gabriel, Adrian, Marielle ou XXXX
 
 Etats : A faire, En cours, Finit, Abandonné
 
