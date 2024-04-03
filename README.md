@@ -6,5 +6,5 @@ Etats : À faire, En cours, Fini, Abandonné
 
 | Nom du plot   | Précisions     | Assigné         | Etat |
 | ------------- | --------------- | --------        |--------        |
-| Nombre de formation par habitant        | Découpage public / privée   | Andreas         | En cours |
+| Nombre de formation par habitant        | Découpage public / privée   | Andreas         | Fini |
 | Taux de boursiers | Département | Adrian | Fini |
