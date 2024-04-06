@@ -1,0 +1,2352 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 20233.24.0112.1233                               -->
+<workbook original-version='18.1' source-build='2023.3.2 (20233.24.0112.1233)' source-platform='win' version='18.1' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <document-format-change-manifest>
+    <_.fcp.AccessibleZoneTabOrder.true...AccessibleZoneTabOrder />
+    <_.fcp.AnimationOnByDefault.true...AnimationOnByDefault />
+    <AutoCreateAndUpdateDSDPhoneLayouts />
+    <IntuitiveSorting />
+    <IntuitiveSorting_SP2 />
+    <_.fcp.MarkAnimation.true...MarkAnimation />
+    <_.fcp.ObjectModelEncapsulateLegacy.true...ObjectModelEncapsulateLegacy />
+    <_.fcp.ObjectModelTableType.true...ObjectModelTableType />
+    <_.fcp.SchemaViewerObjectModel.true...SchemaViewerObjectModel />
+    <SetMembershipControl />
+    <SheetIdentifierTracking />
+    <WindowsPersistSimpleIdentifiers />
+  </document-format-change-manifest>
+  <preferences>
+    <preference name='ui.encoding.shelf.height' value='24' />
+    <preference name='ui.shelf.height' value='26' />
+  </preferences>
+  <_.fcp.AnimationOnByDefault.false...style>
+    <_.fcp.AnimationOnByDefault.false..._.fcp.MarkAnimation.true...style-rule element='animation'>
+      <_.fcp.AnimationOnByDefault.false...format attr='animation-on' value='ao-on' />
+    </_.fcp.AnimationOnByDefault.false..._.fcp.MarkAnimation.true...style-rule>
+  </_.fcp.AnimationOnByDefault.false...style>
+  <datasources>
+    <datasource caption='parcoursup-filtered' inline='true' name='federated.0k8udf71tvh30y10r32kh0xpdwxv' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='parcoursup-filtered' name='textscan.1eeh1oh17lom0n12q63kv1fwzlxv'>
+            <connection class='textscan' directory='C:/Users/Gabey/Downloads/projet-roscoff/initial' filename='parcoursup-filtered.csv' password='' server='' />
+          </named-connection>
+        </named-connections>
+        <_.fcp.ObjectModelEncapsulateLegacy.false...relation connection='textscan.1eeh1oh17lom0n12q63kv1fwzlxv' name='parcoursup-filtered.csv' table='[parcoursup-filtered#csv]' type='table'>
+          <columns character-set='UTF-8' header='yes' locale='en_US' separator=','>
+            <column datatype='string' name='Selected' ordinal='0' />
+            <column datatype='string' name='Code UAI de l&apos;établissement' ordinal='1' />
+            <column datatype='string' name='Établissement' ordinal='2' />
+            <column datatype='integer' name='Code départemental de l’établissement' ordinal='3' />
+            <column datatype='string' name='Département de l’établissement' ordinal='4' />
+            <column datatype='string' name='Commune de l’établissement' ordinal='5' />
+            <column datatype='string' name='Filière de formation' ordinal='6' />
+            <column datatype='string' name='Filière de formation détaillée' ordinal='7' />
+            <column datatype='string' name='Filière de formation détaillée bis' ordinal='8' />
+            <column datatype='string' name='Filière de formation très détaillée' ordinal='9' />
+            <column datatype='string' name='Coordonnées GPS de la formation' ordinal='10' />
+            <column datatype='string' name='Concours communs et banque d&apos;épreuves' ordinal='11' />
+            <column datatype='string' name='Lien de la formation sur la plateforme Parcoursup' ordinal='12' />
+            <column datatype='string' name='etablissement_id_paysage' ordinal='13' />
+            <column datatype='string' name='Département' ordinal='14' />
+            <column datatype='string' name='geom' ordinal='15' />
+            <column datatype='string' name='Geo Point 2D' ordinal='16' />
+            <column datatype='string' name='Selected (1)' ordinal='17' />
+            <column datatype='integer' name='Session' ordinal='18' />
+            <column datatype='string' name='Statut de l’établissement de la filière de formation (public, privé…)' ordinal='19' />
+            <column datatype='string' name='Région de l’établissement' ordinal='20' />
+            <column datatype='string' name='Académie de l’établissement' ordinal='21' />
+            <column datatype='string' name='Sélectivité' ordinal='22' />
+            <column datatype='string' name='Filière de formation très agrégée' ordinal='23' />
+            <column datatype='string' name='Filière de formation.1' ordinal='24' />
+            <column datatype='integer' name='Capacité de l’établissement par formation' ordinal='25' />
+            <column datatype='integer' name='Effectif total des candidats pour une formation' ordinal='26' />
+            <column datatype='integer' name='Dont effectif des candidates pour une formation' ordinal='27' />
+            <column datatype='integer' name='Effectif total des candidats en phase principale' ordinal='28' />
+            <column datatype='integer' name='Dont effectif des candidats ayant postulé en internat' ordinal='29' />
+            <column datatype='integer' name='Effectif des candidats néo bacheliers généraux en phase principale' ordinal='30' />
+            <column datatype='integer' name='Dont effectif des candidats boursiers néo bacheliers généraux en phase principale' ordinal='31' />
+            <column datatype='integer' name='Effectif des candidats néo bacheliers technologiques en phase principale' ordinal='32' />
+            <column datatype='integer' name='Dont effectif des candidats boursiers néo bacheliers technologiques en phase principale' ordinal='33' />
+            <column datatype='integer' name='Effectif des candidats néo bacheliers professionnels en phase principale' ordinal='34' />
+            <column datatype='integer' name='Dont effectif des candidats boursiers néo bacheliers professionnels en phase principale' ordinal='35' />
+            <column datatype='integer' name='Effectif des autres candidats en phase principale' ordinal='36' />
+            <column datatype='integer' name='Effectif total des candidats en phase complémentaire' ordinal='37' />
+            <column datatype='integer' name='Effectif des candidats néo bacheliers généraux en phase complémentaire' ordinal='38' />
+            <column datatype='integer' name='Effectif des candidats néo bacheliers technologique en phase complémentaire' ordinal='39' />
+            <column datatype='integer' name='Effectif des candidats néo bacheliers professionnels en phase complémentaire' ordinal='40' />
+            <column datatype='integer' name='Effectifs des autres candidats en phase complémentaire' ordinal='41' />
+            <column datatype='integer' name='Effectif total des candidats classés par l’établissement en phase principale' ordinal='42' />
+            <column datatype='integer' name='Effectif des candidats classés par l’établissement en phase complémentaire' ordinal='43' />
+            <column datatype='integer' name='Effectif des candidats classés par l’établissement en internat (CPGE)' ordinal='44' />
+            <column datatype='integer' name='Effectif des candidats classés par l’établissement hors internat (CPGE)' ordinal='45' />
+            <column datatype='integer' name='Effectif des candidats néo bacheliers généraux classés par l’établissement' ordinal='46' />
+            <column datatype='integer' name='Dont effectif des candidats boursiers néo bacheliers généraux classés par l’établissement' ordinal='47' />
+            <column datatype='integer' name='Effectif des candidats néo bacheliers technologiques classés par l’établissement' ordinal='48' />
+            <column datatype='integer' name='Dont effectif des candidats boursiers néo bacheliers technologiques classés par l’établissement' ordinal='49' />
+            <column datatype='integer' name='Effectif des candidats néo bacheliers professionnels classés par l’établissement' ordinal='50' />
+            <column datatype='integer' name='Dont effectif des candidats boursiers néo bacheliers professionnels classés par l’établissement' ordinal='51' />
+            <column datatype='integer' name='Effectif des autres candidats classés par l’établissement' ordinal='52' />
+            <column datatype='integer' name='Effectif total des candidats ayant reçu une proposition d’admission de la part de l’établissement' ordinal='53' />
+            <column datatype='integer' name='Effectif total des candidats ayant accepté la proposition de l’établissement (admis)' ordinal='54' />
+            <column datatype='integer' name='Dont effectif des candidates admises' ordinal='55' />
+            <column datatype='integer' name='Effectif des admis en phase principale' ordinal='56' />
+            <column datatype='integer' name='Effectif des admis en phase complémentaire' ordinal='57' />
+            <column datatype='integer' name='Dont effectif des admis ayant reçu leur proposition d’admission à l&apos;ouverture de la procédure principale' ordinal='58' />
+            <column datatype='integer' name='Dont effectif des admis ayant reçu leur proposition d’admission avant le baccalauréat' ordinal='59' />
+            <column datatype='integer' name='Dont effectif des admis ayant reçu leur proposition d’admission avant la fin de la procédure principale' ordinal='60' />
+            <column datatype='integer' name='Dont effectif des admis en internat' ordinal='61' />
+            <column datatype='integer' name='Dont effectif des admis boursiers néo bacheliers' ordinal='62' />
+            <column datatype='integer' name='Effectif des admis néo bacheliers' ordinal='63' />
+            <column datatype='integer' name='Effectif des admis néo bacheliers généraux' ordinal='64' />
+            <column datatype='integer' name='Effectif des admis néo bacheliers technologiques' ordinal='65' />
+            <column datatype='integer' name='Effectif des admis néo bacheliers professionnels' ordinal='66' />
+            <column datatype='integer' name='Effectif des autres candidats admis' ordinal='67' />
+            <column datatype='integer' name='Dont effectif des admis néo bacheliers sans information sur la mention au bac' ordinal='68' />
+            <column datatype='integer' name='Dont effectif des admis néo bacheliers sans mention au bac' ordinal='69' />
+            <column datatype='integer' name='Dont effectif des admis néo bacheliers avec mention Assez Bien au bac' ordinal='70' />
+            <column datatype='integer' name='Dont effectif des admis néo bacheliers avec mention Bien au bac' ordinal='71' />
+            <column datatype='integer' name='Dont effectif des admis néo bacheliers avec mention Très Bien au bac' ordinal='72' />
+            <column datatype='integer' name='Dont effectif des admis néo bacheliers avec mention Très Bien avec félicitations au bac' ordinal='73' />
+            <column datatype='integer' name='Effectif des admis néo bacheliers généraux ayant eu une mention au bac' ordinal='74' />
+            <column datatype='integer' name='Effectif des admis néo bacheliers technologiques ayant eu une mention au bac' ordinal='75' />
+            <column datatype='integer' name='Effectif des admis néo bacheliers professionnels ayant eu une mention au bac' ordinal='76' />
+            <column datatype='integer' name='Dont effectif des admis issus du même établissement (BTS/CPGE)' ordinal='77' />
+            <column datatype='integer' name='Dont effectif des admises issues du même établissement (BTS/CPGE)' ordinal='78' />
+            <column datatype='integer' name='Dont effectif des admis issus de la même académie' ordinal='79' />
+            <column datatype='integer' name='Dont effectif des admis issus de la même académie (Paris/Créteil/Versailles réunies)' ordinal='80' />
+            <column datatype='integer' name='% d’admis ayant reçu leur proposition d’admission à l&apos;ouverture de la procédure principale' ordinal='81' />
+            <column datatype='integer' name='% d’admis ayant reçu leur proposition d’admission avant le baccalauréat' ordinal='82' />
+            <column datatype='integer' name='% d’admis ayant reçu leur proposition d’admission avant la fin de la procédure principale' ordinal='83' />
+            <column datatype='integer' name='% d’admis dont filles' ordinal='84' />
+            <column datatype='integer' name='% d’admis néo bacheliers issus de la même académie' ordinal='85' />
+            <column datatype='integer' name='% d’admis néo bacheliers issus de la même académie (Paris/Créteil/Versailles réunies)' ordinal='86' />
+            <column datatype='integer' name='% d’admis néo bacheliers issus du même établissement (BTS/CPGE)' ordinal='87' />
+            <column datatype='integer' name='% d’admis néo bacheliers boursiers' ordinal='88' />
+            <column datatype='integer' name='% d’admis néo bacheliers' ordinal='89' />
+            <column datatype='integer' name='% d’admis néo bacheliers sans information sur la mention au bac' ordinal='90' />
+            <column datatype='integer' name='% d’admis néo bacheliers sans mention au bac' ordinal='91' />
+            <column datatype='integer' name='% d’admis néo bacheliers avec mention Assez Bien au bac' ordinal='92' />
+            <column datatype='integer' name='% d’admis néo bacheliers avec mention Bien au bac' ordinal='93' />
+            <column datatype='integer' name='% d’admis néo bacheliers avec mention Très Bien au bac' ordinal='94' />
+            <column datatype='integer' name='% d’admis néo bacheliers avec mention Très Bien avec félicitations au bac' ordinal='95' />
+            <column datatype='integer' name='% d’admis néo bacheliers généraux' ordinal='96' />
+            <column datatype='integer' name='Dont % d’admis avec mention (BG)' ordinal='97' />
+            <column datatype='integer' name='% d’admis néo bacheliers technologiques' ordinal='98' />
+            <column datatype='integer' name='Dont % d’admis avec mention (BT)' ordinal='99' />
+            <column datatype='integer' name='% d’admis néo bacheliers professionnels' ordinal='100' />
+            <column datatype='integer' name='Dont % d’admis avec mention (BP)' ordinal='101' />
+            <column datatype='integer' name='Effectif des candidats en terminale générale ayant reçu une proposition d’admission de la part de l’établissement' ordinal='102' />
+            <column datatype='integer' name='Dont effectif des candidats boursiers en terminale générale ayant reçu une proposition d’admission de la part de l’établissemen' ordinal='103' />
+            <column datatype='integer' name='Effectif des candidats en terminale technologique ayant reçu une proposition d’admission de la part de l’établissement' ordinal='104' />
+            <column datatype='integer' name='Dont effectif des candidats boursiers en terminale technologique ayant reçu une proposition d’admission de la part de l’établis' ordinal='105' />
+            <column datatype='integer' name='Effectif des candidats en terminale professionnelle ayant reçu une proposition d’admission de la part de l’établissement' ordinal='106' />
+            <column datatype='integer' name='Dont effectif des candidats boursiers en terminale générale professionnelle ayant reçu une proposition d’admission de la part d' ordinal='107' />
+            <column datatype='integer' name='Effectif des autres candidats ayant reçu une proposition d’admission de la part de l’établissement' ordinal='108' />
+            <column datatype='string' name='Regroupement 1 effectué par les formations pour les classements' ordinal='109' />
+            <column datatype='integer' name='Rang du dernier appelé du groupe 1' ordinal='110' />
+            <column datatype='string' name='Regroupement 2 effectué par les formations pour les classements' ordinal='111' />
+            <column datatype='integer' name='Rang du dernier appelé du groupe 2' ordinal='112' />
+            <column datatype='string' name='Regroupement 3 effectué par les formations pour les classements' ordinal='113' />
+            <column datatype='integer' name='Rang du dernier appelé du groupe 3' ordinal='114' />
+            <column datatype='string' name='list_com' ordinal='115' />
+            <column datatype='string' name='tri' ordinal='116' />
+            <column datatype='integer' name='cod_aff_form' ordinal='117' />
+            <column datatype='integer' name='Taux d’accès' ordinal='118' />
+            <column datatype='integer' name='Part des terminales générales qui étaient en position de recevoir une proposition en phase principale' ordinal='119' />
+            <column datatype='integer' name='Part des terminales technologiques qui étaient en position de recevoir une proposition en phase principale' ordinal='120' />
+            <column datatype='integer' name='Part des terminales professionnelles qui étaient en position de recevoir une proposition en phase principale' ordinal='121' />
+            <column datatype='string' name='composante_id_paysage' ordinal='122' />
+            <column datatype='integer' name='Population' ordinal='123' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.false...relation>
+        <_.fcp.ObjectModelEncapsulateLegacy.true...relation connection='textscan.1eeh1oh17lom0n12q63kv1fwzlxv' name='parcoursup-filtered.csv' table='[parcoursup-filtered#csv]' type='table'>
+          <columns character-set='UTF-8' header='yes' locale='en_US' separator=','>
+            <column datatype='string' name='Selected' ordinal='0' />
+            <column datatype='string' name='Code UAI de l&apos;établissement' ordinal='1' />
+            <column datatype='string' name='Établissement' ordinal='2' />
+            <column datatype='integer' name='Code départemental de l’établissement' ordinal='3' />
+            <column datatype='string' name='Département de l’établissement' ordinal='4' />
+            <column datatype='string' name='Commune de l’établissement' ordinal='5' />
+            <column datatype='string' name='Filière de formation' ordinal='6' />
+            <column datatype='string' name='Filière de formation détaillée' ordinal='7' />
+            <column datatype='string' name='Filière de formation détaillée bis' ordinal='8' />
+            <column datatype='string' name='Filière de formation très détaillée' ordinal='9' />
+            <column datatype='string' name='Coordonnées GPS de la formation' ordinal='10' />
+            <column datatype='string' name='Concours communs et banque d&apos;épreuves' ordinal='11' />
+            <column datatype='string' name='Lien de la formation sur la plateforme Parcoursup' ordinal='12' />
+            <column datatype='string' name='etablissement_id_paysage' ordinal='13' />
+            <column datatype='string' name='Département' ordinal='14' />
+            <column datatype='string' name='geom' ordinal='15' />
+            <column datatype='string' name='Geo Point 2D' ordinal='16' />
+            <column datatype='string' name='Selected (1)' ordinal='17' />
+            <column datatype='integer' name='Session' ordinal='18' />
+            <column datatype='string' name='Statut de l’établissement de la filière de formation (public, privé…)' ordinal='19' />
+            <column datatype='string' name='Région de l’établissement' ordinal='20' />
+            <column datatype='string' name='Académie de l’établissement' ordinal='21' />
+            <column datatype='string' name='Sélectivité' ordinal='22' />
+            <column datatype='string' name='Filière de formation très agrégée' ordinal='23' />
+            <column datatype='string' name='Filière de formation.1' ordinal='24' />
+            <column datatype='integer' name='Capacité de l’établissement par formation' ordinal='25' />
+            <column datatype='integer' name='Effectif total des candidats pour une formation' ordinal='26' />
+            <column datatype='integer' name='Dont effectif des candidates pour une formation' ordinal='27' />
+            <column datatype='integer' name='Effectif total des candidats en phase principale' ordinal='28' />
+            <column datatype='integer' name='Dont effectif des candidats ayant postulé en internat' ordinal='29' />
+            <column datatype='integer' name='Effectif des candidats néo bacheliers généraux en phase principale' ordinal='30' />
+            <column datatype='integer' name='Dont effectif des candidats boursiers néo bacheliers généraux en phase principale' ordinal='31' />
+            <column datatype='integer' name='Effectif des candidats néo bacheliers technologiques en phase principale' ordinal='32' />
+            <column datatype='integer' name='Dont effectif des candidats boursiers néo bacheliers technologiques en phase principale' ordinal='33' />
+            <column datatype='integer' name='Effectif des candidats néo bacheliers professionnels en phase principale' ordinal='34' />
+            <column datatype='integer' name='Dont effectif des candidats boursiers néo bacheliers professionnels en phase principale' ordinal='35' />
+            <column datatype='integer' name='Effectif des autres candidats en phase principale' ordinal='36' />
+            <column datatype='integer' name='Effectif total des candidats en phase complémentaire' ordinal='37' />
+            <column datatype='integer' name='Effectif des candidats néo bacheliers généraux en phase complémentaire' ordinal='38' />
+            <column datatype='integer' name='Effectif des candidats néo bacheliers technologique en phase complémentaire' ordinal='39' />
+            <column datatype='integer' name='Effectif des candidats néo bacheliers professionnels en phase complémentaire' ordinal='40' />
+            <column datatype='integer' name='Effectifs des autres candidats en phase complémentaire' ordinal='41' />
+            <column datatype='integer' name='Effectif total des candidats classés par l’établissement en phase principale' ordinal='42' />
+            <column datatype='integer' name='Effectif des candidats classés par l’établissement en phase complémentaire' ordinal='43' />
+            <column datatype='integer' name='Effectif des candidats classés par l’établissement en internat (CPGE)' ordinal='44' />
+            <column datatype='integer' name='Effectif des candidats classés par l’établissement hors internat (CPGE)' ordinal='45' />
+            <column datatype='integer' name='Effectif des candidats néo bacheliers généraux classés par l’établissement' ordinal='46' />
+            <column datatype='integer' name='Dont effectif des candidats boursiers néo bacheliers généraux classés par l’établissement' ordinal='47' />
+            <column datatype='integer' name='Effectif des candidats néo bacheliers technologiques classés par l’établissement' ordinal='48' />
+            <column datatype='integer' name='Dont effectif des candidats boursiers néo bacheliers technologiques classés par l’établissement' ordinal='49' />
+            <column datatype='integer' name='Effectif des candidats néo bacheliers professionnels classés par l’établissement' ordinal='50' />
+            <column datatype='integer' name='Dont effectif des candidats boursiers néo bacheliers professionnels classés par l’établissement' ordinal='51' />
+            <column datatype='integer' name='Effectif des autres candidats classés par l’établissement' ordinal='52' />
+            <column datatype='integer' name='Effectif total des candidats ayant reçu une proposition d’admission de la part de l’établissement' ordinal='53' />
+            <column datatype='integer' name='Effectif total des candidats ayant accepté la proposition de l’établissement (admis)' ordinal='54' />
+            <column datatype='integer' name='Dont effectif des candidates admises' ordinal='55' />
+            <column datatype='integer' name='Effectif des admis en phase principale' ordinal='56' />
+            <column datatype='integer' name='Effectif des admis en phase complémentaire' ordinal='57' />
+            <column datatype='integer' name='Dont effectif des admis ayant reçu leur proposition d’admission à l&apos;ouverture de la procédure principale' ordinal='58' />
+            <column datatype='integer' name='Dont effectif des admis ayant reçu leur proposition d’admission avant le baccalauréat' ordinal='59' />
+            <column datatype='integer' name='Dont effectif des admis ayant reçu leur proposition d’admission avant la fin de la procédure principale' ordinal='60' />
+            <column datatype='integer' name='Dont effectif des admis en internat' ordinal='61' />
+            <column datatype='integer' name='Dont effectif des admis boursiers néo bacheliers' ordinal='62' />
+            <column datatype='integer' name='Effectif des admis néo bacheliers' ordinal='63' />
+            <column datatype='integer' name='Effectif des admis néo bacheliers généraux' ordinal='64' />
+            <column datatype='integer' name='Effectif des admis néo bacheliers technologiques' ordinal='65' />
+            <column datatype='integer' name='Effectif des admis néo bacheliers professionnels' ordinal='66' />
+            <column datatype='integer' name='Effectif des autres candidats admis' ordinal='67' />
+            <column datatype='integer' name='Dont effectif des admis néo bacheliers sans information sur la mention au bac' ordinal='68' />
+            <column datatype='integer' name='Dont effectif des admis néo bacheliers sans mention au bac' ordinal='69' />
+            <column datatype='integer' name='Dont effectif des admis néo bacheliers avec mention Assez Bien au bac' ordinal='70' />
+            <column datatype='integer' name='Dont effectif des admis néo bacheliers avec mention Bien au bac' ordinal='71' />
+            <column datatype='integer' name='Dont effectif des admis néo bacheliers avec mention Très Bien au bac' ordinal='72' />
+            <column datatype='integer' name='Dont effectif des admis néo bacheliers avec mention Très Bien avec félicitations au bac' ordinal='73' />
+            <column datatype='integer' name='Effectif des admis néo bacheliers généraux ayant eu une mention au bac' ordinal='74' />
+            <column datatype='integer' name='Effectif des admis néo bacheliers technologiques ayant eu une mention au bac' ordinal='75' />
+            <column datatype='integer' name='Effectif des admis néo bacheliers professionnels ayant eu une mention au bac' ordinal='76' />
+            <column datatype='integer' name='Dont effectif des admis issus du même établissement (BTS/CPGE)' ordinal='77' />
+            <column datatype='integer' name='Dont effectif des admises issues du même établissement (BTS/CPGE)' ordinal='78' />
+            <column datatype='integer' name='Dont effectif des admis issus de la même académie' ordinal='79' />
+            <column datatype='integer' name='Dont effectif des admis issus de la même académie (Paris/Créteil/Versailles réunies)' ordinal='80' />
+            <column datatype='integer' name='% d’admis ayant reçu leur proposition d’admission à l&apos;ouverture de la procédure principale' ordinal='81' />
+            <column datatype='integer' name='% d’admis ayant reçu leur proposition d’admission avant le baccalauréat' ordinal='82' />
+            <column datatype='integer' name='% d’admis ayant reçu leur proposition d’admission avant la fin de la procédure principale' ordinal='83' />
+            <column datatype='integer' name='% d’admis dont filles' ordinal='84' />
+            <column datatype='integer' name='% d’admis néo bacheliers issus de la même académie' ordinal='85' />
+            <column datatype='integer' name='% d’admis néo bacheliers issus de la même académie (Paris/Créteil/Versailles réunies)' ordinal='86' />
+            <column datatype='integer' name='% d’admis néo bacheliers issus du même établissement (BTS/CPGE)' ordinal='87' />
+            <column datatype='integer' name='% d’admis néo bacheliers boursiers' ordinal='88' />
+            <column datatype='integer' name='% d’admis néo bacheliers' ordinal='89' />
+            <column datatype='integer' name='% d’admis néo bacheliers sans information sur la mention au bac' ordinal='90' />
+            <column datatype='integer' name='% d’admis néo bacheliers sans mention au bac' ordinal='91' />
+            <column datatype='integer' name='% d’admis néo bacheliers avec mention Assez Bien au bac' ordinal='92' />
+            <column datatype='integer' name='% d’admis néo bacheliers avec mention Bien au bac' ordinal='93' />
+            <column datatype='integer' name='% d’admis néo bacheliers avec mention Très Bien au bac' ordinal='94' />
+            <column datatype='integer' name='% d’admis néo bacheliers avec mention Très Bien avec félicitations au bac' ordinal='95' />
+            <column datatype='integer' name='% d’admis néo bacheliers généraux' ordinal='96' />
+            <column datatype='integer' name='Dont % d’admis avec mention (BG)' ordinal='97' />
+            <column datatype='integer' name='% d’admis néo bacheliers technologiques' ordinal='98' />
+            <column datatype='integer' name='Dont % d’admis avec mention (BT)' ordinal='99' />
+            <column datatype='integer' name='% d’admis néo bacheliers professionnels' ordinal='100' />
+            <column datatype='integer' name='Dont % d’admis avec mention (BP)' ordinal='101' />
+            <column datatype='integer' name='Effectif des candidats en terminale générale ayant reçu une proposition d’admission de la part de l’établissement' ordinal='102' />
+            <column datatype='integer' name='Dont effectif des candidats boursiers en terminale générale ayant reçu une proposition d’admission de la part de l’établissemen' ordinal='103' />
+            <column datatype='integer' name='Effectif des candidats en terminale technologique ayant reçu une proposition d’admission de la part de l’établissement' ordinal='104' />
+            <column datatype='integer' name='Dont effectif des candidats boursiers en terminale technologique ayant reçu une proposition d’admission de la part de l’établis' ordinal='105' />
+            <column datatype='integer' name='Effectif des candidats en terminale professionnelle ayant reçu une proposition d’admission de la part de l’établissement' ordinal='106' />
+            <column datatype='integer' name='Dont effectif des candidats boursiers en terminale générale professionnelle ayant reçu une proposition d’admission de la part d' ordinal='107' />
+            <column datatype='integer' name='Effectif des autres candidats ayant reçu une proposition d’admission de la part de l’établissement' ordinal='108' />
+            <column datatype='string' name='Regroupement 1 effectué par les formations pour les classements' ordinal='109' />
+            <column datatype='integer' name='Rang du dernier appelé du groupe 1' ordinal='110' />
+            <column datatype='string' name='Regroupement 2 effectué par les formations pour les classements' ordinal='111' />
+            <column datatype='integer' name='Rang du dernier appelé du groupe 2' ordinal='112' />
+            <column datatype='string' name='Regroupement 3 effectué par les formations pour les classements' ordinal='113' />
+            <column datatype='integer' name='Rang du dernier appelé du groupe 3' ordinal='114' />
+            <column datatype='string' name='list_com' ordinal='115' />
+            <column datatype='string' name='tri' ordinal='116' />
+            <column datatype='integer' name='cod_aff_form' ordinal='117' />
+            <column datatype='integer' name='Taux d’accès' ordinal='118' />
+            <column datatype='integer' name='Part des terminales générales qui étaient en position de recevoir une proposition en phase principale' ordinal='119' />
+            <column datatype='integer' name='Part des terminales technologiques qui étaient en position de recevoir une proposition en phase principale' ordinal='120' />
+            <column datatype='integer' name='Part des terminales professionnelles qui étaient en position de recevoir une proposition en phase principale' ordinal='121' />
+            <column datatype='string' name='composante_id_paysage' ordinal='122' />
+            <column datatype='integer' name='Population' ordinal='123' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.true...relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[parcoursup-filtered.csv]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='character-set'>&quot;UTF-8&quot;</attribute>
+              <attribute datatype='string' name='collation'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='field-delimiter'>&quot;,&quot;</attribute>
+              <attribute datatype='string' name='header-row'>&quot;true&quot;</attribute>
+              <attribute datatype='string' name='locale'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='single-char'>&quot;&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Selected</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Selected]</local-name>
+            <parent-name>[parcoursup-filtered.csv]</parent-name>
+            <remote-alias>Selected</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[parcoursup-filtered.csv_8595ADCFA9A04B57AFE3219FFD5954B1]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Code UAI de l&apos;établissement</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Code UAI de l&apos;établissement]</local-name>
+            <parent-name>[parcoursup-filtered.csv]</parent-name>
+            <remote-alias>Code UAI de l&apos;établissement</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[parcoursup-filtered.csv_8595ADCFA9A04B57AFE3219FFD5954B1]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Établissement</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Établissement]</local-name>
+            <parent-name>[parcoursup-filtered.csv]</parent-name>
+            <remote-alias>Établissement</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[parcoursup-filtered.csv_8595ADCFA9A04B57AFE3219FFD5954B1]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Code départemental de l’établissement</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Code départemental de l’établissement]</local-name>
+            <parent-name>[parcoursup-filtered.csv]</parent-name>
+            <remote-alias>Code départemental de l’établissement</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[parcoursup-filtered.csv_8595ADCFA9A04B57AFE3219FFD5954B1]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Département de l’établissement</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Département de l’établissement]</local-name>
+            <parent-name>[parcoursup-filtered.csv]</parent-name>
+            <remote-alias>Département de l’établissement</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[parcoursup-filtered.csv_8595ADCFA9A04B57AFE3219FFD5954B1]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Commune de l’établissement</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Commune de l’établissement]</local-name>
+            <parent-name>[parcoursup-filtered.csv]</parent-name>
+            <remote-alias>Commune de l’établissement</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[parcoursup-filtered.csv_8595ADCFA9A04B57AFE3219FFD5954B1]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Filière de formation</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Filière de formation]</local-name>
+            <parent-name>[parcoursup-filtered.csv]</parent-name>
+            <remote-alias>Filière de formation</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[parcoursup-filtered.csv_8595ADCFA9A04B57AFE3219FFD5954B1]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Filière de formation détaillée</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Filière de formation détaillée]</local-name>
+            <parent-name>[parcoursup-filtered.csv]</parent-name>
+            <remote-alias>Filière de formation détaillée</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[parcoursup-filtered.csv_8595ADCFA9A04B57AFE3219FFD5954B1]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Filière de formation détaillée bis</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Filière de formation détaillée bis]</local-name>
+            <parent-name>[parcoursup-filtered.csv]</parent-name>
+            <remote-alias>Filière de formation détaillée bis</remote-alias>
+            <ordinal>8</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[parcoursup-filtered.csv_8595ADCFA9A04B57AFE3219FFD5954B1]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Filière de formation très détaillée</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Filière de formation très détaillée]</local-name>
+            <parent-name>[parcoursup-filtered.csv]</parent-name>
+            <remote-alias>Filière de formation très détaillée</remote-alias>
+            <ordinal>9</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[parcoursup-filtered.csv_8595ADCFA9A04B57AFE3219FFD5954B1]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Coordonnées GPS de la formation</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Coordonnées GPS de la formation]</local-name>
+            <parent-name>[parcoursup-filtered.csv]</parent-name>
+            <remote-alias>Coordonnées GPS de la formation</remote-alias>
+            <ordinal>10</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[parcoursup-filtered.csv_8595ADCFA9A04B57AFE3219FFD5954B1]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Concours communs et banque d&apos;épreuves</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Concours communs et banque d&apos;épreuves]</local-name>
+            <parent-name>[parcoursup-filtered.csv]</parent-name>
+            <remote-alias>Concours communs et banque d&apos;épreuves</remote-alias>
+            <ordinal>11</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[parcoursup-filtered.csv_8595ADCFA9A04B57AFE3219FFD5954B1]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Lien de la formation sur la plateforme Parcoursup</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Lien de la formation sur la plateforme Parcoursup]</local-name>
+            <parent-name>[parcoursup-filtered.csv]</parent-name>
+            <remote-alias>Lien de la formation sur la plateforme Parcoursup</remote-alias>
+            <ordinal>12</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[parcoursup-filtered.csv_8595ADCFA9A04B57AFE3219FFD5954B1]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>etablissement_id_paysage</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[etablissement_id_paysage]</local-name>
+            <parent-name>[parcoursup-filtered.csv]</parent-name>
+            <remote-alias>etablissement_id_paysage</remote-alias>
+            <ordinal>13</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[parcoursup-filtered.csv_8595ADCFA9A04B57AFE3219FFD5954B1]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Département</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Département]</local-name>
+            <parent-name>[parcoursup-filtered.csv]</parent-name>
+            <remote-alias>Département</remote-alias>
+            <ordinal>14</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[parcoursup-filtered.csv_8595ADCFA9A04B57AFE3219FFD5954B1]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>geom</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[geom]</local-name>
+            <parent-name>[parcoursup-filtered.csv]</parent-name>
+            <remote-alias>geom</remote-alias>
+            <ordinal>15</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[parcoursup-filtered.csv_8595ADCFA9A04B57AFE3219FFD5954B1]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Geo Point 2D</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Geo Point 2D]</local-name>
+            <parent-name>[parcoursup-filtered.csv]</parent-name>
+            <remote-alias>Geo Point 2D</remote-alias>
+            <ordinal>16</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[parcoursup-filtered.csv_8595ADCFA9A04B57AFE3219FFD5954B1]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Selected (1)</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Selected (1)]</local-name>
+            <parent-name>[parcoursup-filtered.csv]</parent-name>
+            <remote-alias>Selected (1)</remote-alias>
+            <ordinal>17</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[parcoursup-filtered.csv_8595ADCFA9A04B57AFE3219FFD5954B1]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Session</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Session]</local-name>
+            <parent-name>[parcoursup-filtered.csv]</parent-name>
+            <remote-alias>Session</remote-alias>
+            <ordinal>18</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[parcoursup-filtered.csv_8595ADCFA9A04B57AFE3219FFD5954B1]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Statut de l’établissement de la filière de formation (public, privé…)</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Statut de l’établissement de la filière de formation (public, privé…)]</local-name>
+            <parent-name>[parcoursup-filtered.csv]</parent-name>
+            <remote-alias>Statut de l’établissement de la filière de formation (public, privé…)</remote-alias>
+            <ordinal>19</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[parcoursup-filtered.csv_8595ADCFA9A04B57AFE3219FFD5954B1]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Région de l’établissement</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Région de l’établissement]</local-name>
+            <parent-name>[parcoursup-filtered.csv]</parent-name>
+            <remote-alias>Région de l’établissement</remote-alias>
+            <ordinal>20</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[parcoursup-filtered.csv_8595ADCFA9A04B57AFE3219FFD5954B1]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Académie de l’établissement</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Académie de l’établissement]</local-name>
+            <parent-name>[parcoursup-filtered.csv]</parent-name>
+            <remote-alias>Académie de l’établissement</remote-alias>
+            <ordinal>21</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[parcoursup-filtered.csv_8595ADCFA9A04B57AFE3219FFD5954B1]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Sélectivité</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Sélectivité]</local-name>
+            <parent-name>[parcoursup-filtered.csv]</parent-name>
+            <remote-alias>Sélectivité</remote-alias>
+            <ordinal>22</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[parcoursup-filtered.csv_8595ADCFA9A04B57AFE3219FFD5954B1]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Filière de formation très agrégée</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Filière de formation très agrégée]</local-name>
+            <parent-name>[parcoursup-filtered.csv]</parent-name>
+            <remote-alias>Filière de formation très agrégée</remote-alias>
+            <ordinal>23</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[parcoursup-filtered.csv_8595ADCFA9A04B57AFE3219FFD5954B1]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Filière de formation.1</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Filière de formation.1]</local-name>
+            <parent-name>[parcoursup-filtered.csv]</parent-name>
+            <remote-alias>Filière de formation.1</remote-alias>
+            <ordinal>24</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[parcoursup-filtered.csv_8595ADCFA9A04B57AFE3219FFD5954B1]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Capacité de l’établissement par formation</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Capacité de l’établissement par formation]</local-name>
+            <parent-name>[parcoursup-filtered.csv]</parent-name>
+            <remote-alias>Capacité de l’établissement par formation</remote-alias>
+            <ordinal>25</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[parcoursup-filtered.csv_8595ADCFA9A04B57AFE3219FFD5954B1]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Effectif total des candidats pour une formation</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Effectif total des candidats pour une formation]</local-name>
+            <parent-name>[parcoursup-filtered.csv]</parent-name>
+            <remote-alias>Effectif total des candidats pour une formation</remote-alias>
+            <ordinal>26</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[parcoursup-filtered.csv_8595ADCFA9A04B57AFE3219FFD5954B1]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Dont effectif des candidates pour une formation</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Dont effectif des candidates pour une formation]</local-name>
+            <parent-name>[parcoursup-filtered.csv]</parent-name>
+            <remote-alias>Dont effectif des candidates pour une formation</remote-alias>
+            <ordinal>27</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[parcoursup-filtered.csv_8595ADCFA9A04B57AFE3219FFD5954B1]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Effectif total des candidats en phase principale</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Effectif total des candidats en phase principale]</local-name>
+            <parent-name>[parcoursup-filtered.csv]</parent-name>
+            <remote-alias>Effectif total des candidats en phase principale</remote-alias>
+            <ordinal>28</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[parcoursup-filtered.csv_8595ADCFA9A04B57AFE3219FFD5954B1]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Dont effectif des candidats ayant postulé en internat</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Dont effectif des candidats ayant postulé en internat]</local-name>
+            <parent-name>[parcoursup-filtered.csv]</parent-name>
+            <remote-alias>Dont effectif des candidats ayant postulé en internat</remote-alias>
+            <ordinal>29</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[parcoursup-filtered.csv_8595ADCFA9A04B57AFE3219FFD5954B1]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Effectif des candidats néo bacheliers généraux en phase principale</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Effectif des candidats néo bacheliers généraux en phase principale]</local-name>
+            <parent-name>[parcoursup-filtered.csv]</parent-name>
+            <remote-alias>Effectif des candidats néo bacheliers généraux en phase principale</remote-alias>
+            <ordinal>30</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[parcoursup-filtered.csv_8595ADCFA9A04B57AFE3219FFD5954B1]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Dont effectif des candidats boursiers néo bacheliers généraux en phase principale</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Dont effectif des candidats boursiers néo bacheliers généraux en phase principale]</local-name>
+            <parent-name>[parcoursup-filtered.csv]</parent-name>
+            <remote-alias>Dont effectif des candidats boursiers néo bacheliers généraux en phase principale</remote-alias>
+            <ordinal>31</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[parcoursup-filtered.csv_8595ADCFA9A04B57AFE3219FFD5954B1]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Effectif des candidats néo bacheliers technologiques en phase principale</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Effectif des candidats néo bacheliers technologiques en phase principale]</local-name>
+            <parent-name>[parcoursup-filtered.csv]</parent-name>
+            <remote-alias>Effectif des candidats néo bacheliers technologiques en phase principale</remote-alias>
+            <ordinal>32</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[parcoursup-filtered.csv_8595ADCFA9A04B57AFE3219FFD5954B1]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Dont effectif des candidats boursiers néo bacheliers technologiques en phase principale</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Dont effectif des candidats boursiers néo bacheliers technologiques en phase principale]</local-name>
+            <parent-name>[parcoursup-filtered.csv]</parent-name>
+            <remote-alias>Dont effectif des candidats boursiers néo bacheliers technologiques en phase principale</remote-alias>
+            <ordinal>33</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[parcoursup-filtered.csv_8595ADCFA9A04B57AFE3219FFD5954B1]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Effectif des candidats néo bacheliers professionnels en phase principale</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Effectif des candidats néo bacheliers professionnels en phase principale]</local-name>
+            <parent-name>[parcoursup-filtered.csv]</parent-name>
+            <remote-alias>Effectif des candidats néo bacheliers professionnels en phase principale</remote-alias>
+            <ordinal>34</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[parcoursup-filtered.csv_8595ADCFA9A04B57AFE3219FFD5954B1]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Dont effectif des candidats boursiers néo bacheliers professionnels en phase principale</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Dont effectif des candidats boursiers néo bacheliers professionnels en phase principale]</local-name>
+            <parent-name>[parcoursup-filtered.csv]</parent-name>
+            <remote-alias>Dont effectif des candidats boursiers néo bacheliers professionnels en phase principale</remote-alias>
+            <ordinal>35</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[parcoursup-filtered.csv_8595ADCFA9A04B57AFE3219FFD5954B1]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Effectif des autres candidats en phase principale</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Effectif des autres candidats en phase principale]</local-name>
+            <parent-name>[parcoursup-filtered.csv]</parent-name>
+            <remote-alias>Effectif des autres candidats en phase principale</remote-alias>
+            <ordinal>36</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[parcoursup-filtered.csv_8595ADCFA9A04B57AFE3219FFD5954B1]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Effectif total des candidats en phase complémentaire</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Effectif total des candidats en phase complémentaire]</local-name>
+            <parent-name>[parcoursup-filtered.csv]</parent-name>
+            <remote-alias>Effectif total des candidats en phase complémentaire</remote-alias>
+            <ordinal>37</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[parcoursup-filtered.csv_8595ADCFA9A04B57AFE3219FFD5954B1]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Effectif des candidats néo bacheliers généraux en phase complémentaire</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Effectif des candidats néo bacheliers généraux en phase complémentaire]</local-name>
+            <parent-name>[parcoursup-filtered.csv]</parent-name>
+            <remote-alias>Effectif des candidats néo bacheliers généraux en phase complémentaire</remote-alias>
+            <ordinal>38</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[parcoursup-filtered.csv_8595ADCFA9A04B57AFE3219FFD5954B1]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Effectif des candidats néo bacheliers technologique en phase complémentaire</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Effectif des candidats néo bacheliers technologique en phase complémentaire]</local-name>
+            <parent-name>[parcoursup-filtered.csv]</parent-name>
+            <remote-alias>Effectif des candidats néo bacheliers technologique en phase complémentaire</remote-alias>
+            <ordinal>39</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[parcoursup-filtered.csv_8595ADCFA9A04B57AFE3219FFD5954B1]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Effectif des candidats néo bacheliers professionnels en phase complémentaire</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Effectif des candidats néo bacheliers professionnels en phase complémentaire]</local-name>
+            <parent-name>[parcoursup-filtered.csv]</parent-name>
+            <remote-alias>Effectif des candidats néo bacheliers professionnels en phase complémentaire</remote-alias>
+            <ordinal>40</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[parcoursup-filtered.csv_8595ADCFA9A04B57AFE3219FFD5954B1]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Effectifs des autres candidats en phase complémentaire</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Effectifs des autres candidats en phase complémentaire]</local-name>
+            <parent-name>[parcoursup-filtered.csv]</parent-name>
+            <remote-alias>Effectifs des autres candidats en phase complémentaire</remote-alias>
+            <ordinal>41</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[parcoursup-filtered.csv_8595ADCFA9A04B57AFE3219FFD5954B1]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Effectif total des candidats classés par l’établissement en phase principale</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Effectif total des candidats classés par l’établissement en phase principale]</local-name>
+            <parent-name>[parcoursup-filtered.csv]</parent-name>
+            <remote-alias>Effectif total des candidats classés par l’établissement en phase principale</remote-alias>
+            <ordinal>42</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[parcoursup-filtered.csv_8595ADCFA9A04B57AFE3219FFD5954B1]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Effectif des candidats classés par l’établissement en phase complémentaire</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Effectif des candidats classés par l’établissement en phase complémentaire]</local-name>
+            <parent-name>[parcoursup-filtered.csv]</parent-name>
+            <remote-alias>Effectif des candidats classés par l’établissement en phase complémentaire</remote-alias>
+            <ordinal>43</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[parcoursup-filtered.csv_8595ADCFA9A04B57AFE3219FFD5954B1]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Effectif des candidats classés par l’établissement en internat (CPGE)</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Effectif des candidats classés par l’établissement en internat (CPGE)]</local-name>
+            <parent-name>[parcoursup-filtered.csv]</parent-name>
+            <remote-alias>Effectif des candidats classés par l’établissement en internat (CPGE)</remote-alias>
+            <ordinal>44</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[parcoursup-filtered.csv_8595ADCFA9A04B57AFE3219FFD5954B1]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Effectif des candidats classés par l’établissement hors internat (CPGE)</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Effectif des candidats classés par l’établissement hors internat (CPGE)]</local-name>
+            <parent-name>[parcoursup-filtered.csv]</parent-name>
+            <remote-alias>Effectif des candidats classés par l’établissement hors internat (CPGE)</remote-alias>
+            <ordinal>45</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[parcoursup-filtered.csv_8595ADCFA9A04B57AFE3219FFD5954B1]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Effectif des candidats néo bacheliers généraux classés par l’établissement</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Effectif des candidats néo bacheliers généraux classés par l’établissement]</local-name>
+            <parent-name>[parcoursup-filtered.csv]</parent-name>
+            <remote-alias>Effectif des candidats néo bacheliers généraux classés par l’établissement</remote-alias>
+            <ordinal>46</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[parcoursup-filtered.csv_8595ADCFA9A04B57AFE3219FFD5954B1]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Dont effectif des candidats boursiers néo bacheliers généraux classés par l’établissement</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Dont effectif des candidats boursiers néo bacheliers généraux classés par l’établissement]</local-name>
+            <parent-name>[parcoursup-filtered.csv]</parent-name>
+            <remote-alias>Dont effectif des candidats boursiers néo bacheliers généraux classés par l’établissement</remote-alias>
+            <ordinal>47</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[parcoursup-filtered.csv_8595ADCFA9A04B57AFE3219FFD5954B1]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Effectif des candidats néo bacheliers technologiques classés par l’établissement</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Effectif des candidats néo bacheliers technologiques classés par l’établissement]</local-name>
+            <parent-name>[parcoursup-filtered.csv]</parent-name>
+            <remote-alias>Effectif des candidats néo bacheliers technologiques classés par l’établissement</remote-alias>
+            <ordinal>48</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[parcoursup-filtered.csv_8595ADCFA9A04B57AFE3219FFD5954B1]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Dont effectif des candidats boursiers néo bacheliers technologiques classés par l’établissement</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Dont effectif des candidats boursiers néo bacheliers technologiques classés par l’établissement]</local-name>
+            <parent-name>[parcoursup-filtered.csv]</parent-name>
+            <remote-alias>Dont effectif des candidats boursiers néo bacheliers technologiques classés par l’établissement</remote-alias>
+            <ordinal>49</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[parcoursup-filtered.csv_8595ADCFA9A04B57AFE3219FFD5954B1]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Effectif des candidats néo bacheliers professionnels classés par l’établissement</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Effectif des candidats néo bacheliers professionnels classés par l’établissement]</local-name>
+            <parent-name>[parcoursup-filtered.csv]</parent-name>
+            <remote-alias>Effectif des candidats néo bacheliers professionnels classés par l’établissement</remote-alias>
+            <ordinal>50</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[parcoursup-filtered.csv_8595ADCFA9A04B57AFE3219FFD5954B1]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Dont effectif des candidats boursiers néo bacheliers professionnels classés par l’établissement</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Dont effectif des candidats boursiers néo bacheliers professionnels classés par l’établissement]</local-name>
+            <parent-name>[parcoursup-filtered.csv]</parent-name>
+            <remote-alias>Dont effectif des candidats boursiers néo bacheliers professionnels classés par l’établissement</remote-alias>
+            <ordinal>51</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[parcoursup-filtered.csv_8595ADCFA9A04B57AFE3219FFD5954B1]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Effectif des autres candidats classés par l’établissement</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Effectif des autres candidats classés par l’établissement]</local-name>
+            <parent-name>[parcoursup-filtered.csv]</parent-name>
+            <remote-alias>Effectif des autres candidats classés par l’établissement</remote-alias>
+            <ordinal>52</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[parcoursup-filtered.csv_8595ADCFA9A04B57AFE3219FFD5954B1]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Effectif total des candidats ayant reçu une proposition d’admission de la part de l’établissement</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Effectif total des candidats ayant reçu une proposition d’admission de la part de l’établissement]</local-name>
+            <parent-name>[parcoursup-filtered.csv]</parent-name>
+            <remote-alias>Effectif total des candidats ayant reçu une proposition d’admission de la part de l’établissement</remote-alias>
+            <ordinal>53</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[parcoursup-filtered.csv_8595ADCFA9A04B57AFE3219FFD5954B1]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Effectif total des candidats ayant accepté la proposition de l’établissement (admis)</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Effectif total des candidats ayant accepté la proposition de l’établissement (admis)]</local-name>
+            <parent-name>[parcoursup-filtered.csv]</parent-name>
+            <remote-alias>Effectif total des candidats ayant accepté la proposition de l’établissement (admis)</remote-alias>
+            <ordinal>54</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[parcoursup-filtered.csv_8595ADCFA9A04B57AFE3219FFD5954B1]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Dont effectif des candidates admises</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Dont effectif des candidates admises]</local-name>
+            <parent-name>[parcoursup-filtered.csv]</parent-name>
+            <remote-alias>Dont effectif des candidates admises</remote-alias>
+            <ordinal>55</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[parcoursup-filtered.csv_8595ADCFA9A04B57AFE3219FFD5954B1]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Effectif des admis en phase principale</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Effectif des admis en phase principale]</local-name>
+            <parent-name>[parcoursup-filtered.csv]</parent-name>
+            <remote-alias>Effectif des admis en phase principale</remote-alias>
+            <ordinal>56</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[parcoursup-filtered.csv_8595ADCFA9A04B57AFE3219FFD5954B1]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Effectif des admis en phase complémentaire</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Effectif des admis en phase complémentaire]</local-name>
+            <parent-name>[parcoursup-filtered.csv]</parent-name>
+            <remote-alias>Effectif des admis en phase complémentaire</remote-alias>
+            <ordinal>57</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[parcoursup-filtered.csv_8595ADCFA9A04B57AFE3219FFD5954B1]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Dont effectif des admis ayant reçu leur proposition d’admission à l&apos;ouverture de la procédure principale</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Dont effectif des admis ayant reçu leur proposition d’admission à l&apos;ouverture de la procédure principale]</local-name>
+            <parent-name>[parcoursup-filtered.csv]</parent-name>
+            <remote-alias>Dont effectif des admis ayant reçu leur proposition d’admission à l&apos;ouverture de la procédure principale</remote-alias>
+            <ordinal>58</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[parcoursup-filtered.csv_8595ADCFA9A04B57AFE3219FFD5954B1]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Dont effectif des admis ayant reçu leur proposition d’admission avant le baccalauréat</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Dont effectif des admis ayant reçu leur proposition d’admission avant le baccalauréat]</local-name>
+            <parent-name>[parcoursup-filtered.csv]</parent-name>
+            <remote-alias>Dont effectif des admis ayant reçu leur proposition d’admission avant le baccalauréat</remote-alias>
+            <ordinal>59</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[parcoursup-filtered.csv_8595ADCFA9A04B57AFE3219FFD5954B1]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Dont effectif des admis ayant reçu leur proposition d’admission avant la fin de la procédure principale</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Dont effectif des admis ayant reçu leur proposition d’admission avant la fin de la procédure principale]</local-name>
+            <parent-name>[parcoursup-filtered.csv]</parent-name>
+            <remote-alias>Dont effectif des admis ayant reçu leur proposition d’admission avant la fin de la procédure principale</remote-alias>
+            <ordinal>60</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[parcoursup-filtered.csv_8595ADCFA9A04B57AFE3219FFD5954B1]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Dont effectif des admis en internat</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Dont effectif des admis en internat]</local-name>
+            <parent-name>[parcoursup-filtered.csv]</parent-name>
+            <remote-alias>Dont effectif des admis en internat</remote-alias>
+            <ordinal>61</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[parcoursup-filtered.csv_8595ADCFA9A04B57AFE3219FFD5954B1]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Dont effectif des admis boursiers néo bacheliers</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Dont effectif des admis boursiers néo bacheliers]</local-name>
+            <parent-name>[parcoursup-filtered.csv]</parent-name>
+            <remote-alias>Dont effectif des admis boursiers néo bacheliers</remote-alias>
+            <ordinal>62</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[parcoursup-filtered.csv_8595ADCFA9A04B57AFE3219FFD5954B1]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Effectif des admis néo bacheliers</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Effectif des admis néo bacheliers]</local-name>
+            <parent-name>[parcoursup-filtered.csv]</parent-name>
+            <remote-alias>Effectif des admis néo bacheliers</remote-alias>
+            <ordinal>63</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[parcoursup-filtered.csv_8595ADCFA9A04B57AFE3219FFD5954B1]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Effectif des admis néo bacheliers généraux</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Effectif des admis néo bacheliers généraux]</local-name>
+            <parent-name>[parcoursup-filtered.csv]</parent-name>
+            <remote-alias>Effectif des admis néo bacheliers généraux</remote-alias>
+            <ordinal>64</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[parcoursup-filtered.csv_8595ADCFA9A04B57AFE3219FFD5954B1]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Effectif des admis néo bacheliers technologiques</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Effectif des admis néo bacheliers technologiques]</local-name>
+            <parent-name>[parcoursup-filtered.csv]</parent-name>
+            <remote-alias>Effectif des admis néo bacheliers technologiques</remote-alias>
+            <ordinal>65</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[parcoursup-filtered.csv_8595ADCFA9A04B57AFE3219FFD5954B1]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Effectif des admis néo bacheliers professionnels</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Effectif des admis néo bacheliers professionnels]</local-name>
+            <parent-name>[parcoursup-filtered.csv]</parent-name>
+            <remote-alias>Effectif des admis néo bacheliers professionnels</remote-alias>
+            <ordinal>66</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[parcoursup-filtered.csv_8595ADCFA9A04B57AFE3219FFD5954B1]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Effectif des autres candidats admis</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Effectif des autres candidats admis]</local-name>
+            <parent-name>[parcoursup-filtered.csv]</parent-name>
+            <remote-alias>Effectif des autres candidats admis</remote-alias>
+            <ordinal>67</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[parcoursup-filtered.csv_8595ADCFA9A04B57AFE3219FFD5954B1]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Dont effectif des admis néo bacheliers sans information sur la mention au bac</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Dont effectif des admis néo bacheliers sans information sur la mention au bac]</local-name>
+            <parent-name>[parcoursup-filtered.csv]</parent-name>
+            <remote-alias>Dont effectif des admis néo bacheliers sans information sur la mention au bac</remote-alias>
+            <ordinal>68</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[parcoursup-filtered.csv_8595ADCFA9A04B57AFE3219FFD5954B1]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Dont effectif des admis néo bacheliers sans mention au bac</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Dont effectif des admis néo bacheliers sans mention au bac]</local-name>
+            <parent-name>[parcoursup-filtered.csv]</parent-name>
+            <remote-alias>Dont effectif des admis néo bacheliers sans mention au bac</remote-alias>
+            <ordinal>69</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[parcoursup-filtered.csv_8595ADCFA9A04B57AFE3219FFD5954B1]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Dont effectif des admis néo bacheliers avec mention Assez Bien au bac</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Dont effectif des admis néo bacheliers avec mention Assez Bien au bac]</local-name>
+            <parent-name>[parcoursup-filtered.csv]</parent-name>
+            <remote-alias>Dont effectif des admis néo bacheliers avec mention Assez Bien au bac</remote-alias>
+            <ordinal>70</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[parcoursup-filtered.csv_8595ADCFA9A04B57AFE3219FFD5954B1]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Dont effectif des admis néo bacheliers avec mention Bien au bac</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Dont effectif des admis néo bacheliers avec mention Bien au bac]</local-name>
+            <parent-name>[parcoursup-filtered.csv]</parent-name>
+            <remote-alias>Dont effectif des admis néo bacheliers avec mention Bien au bac</remote-alias>
+            <ordinal>71</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[parcoursup-filtered.csv_8595ADCFA9A04B57AFE3219FFD5954B1]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Dont effectif des admis néo bacheliers avec mention Très Bien au bac</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Dont effectif des admis néo bacheliers avec mention Très Bien au bac]</local-name>
+            <parent-name>[parcoursup-filtered.csv]</parent-name>
+            <remote-alias>Dont effectif des admis néo bacheliers avec mention Très Bien au bac</remote-alias>
+            <ordinal>72</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[parcoursup-filtered.csv_8595ADCFA9A04B57AFE3219FFD5954B1]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Dont effectif des admis néo bacheliers avec mention Très Bien avec félicitations au bac</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Dont effectif des admis néo bacheliers avec mention Très Bien avec félicitations au bac]</local-name>
+            <parent-name>[parcoursup-filtered.csv]</parent-name>
+            <remote-alias>Dont effectif des admis néo bacheliers avec mention Très Bien avec félicitations au bac</remote-alias>
+            <ordinal>73</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[parcoursup-filtered.csv_8595ADCFA9A04B57AFE3219FFD5954B1]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Effectif des admis néo bacheliers généraux ayant eu une mention au bac</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Effectif des admis néo bacheliers généraux ayant eu une mention au bac]</local-name>
+            <parent-name>[parcoursup-filtered.csv]</parent-name>
+            <remote-alias>Effectif des admis néo bacheliers généraux ayant eu une mention au bac</remote-alias>
+            <ordinal>74</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[parcoursup-filtered.csv_8595ADCFA9A04B57AFE3219FFD5954B1]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Effectif des admis néo bacheliers technologiques ayant eu une mention au bac</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Effectif des admis néo bacheliers technologiques ayant eu une mention au bac]</local-name>
+            <parent-name>[parcoursup-filtered.csv]</parent-name>
+            <remote-alias>Effectif des admis néo bacheliers technologiques ayant eu une mention au bac</remote-alias>
+            <ordinal>75</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[parcoursup-filtered.csv_8595ADCFA9A04B57AFE3219FFD5954B1]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Effectif des admis néo bacheliers professionnels ayant eu une mention au bac</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Effectif des admis néo bacheliers professionnels ayant eu une mention au bac]</local-name>
+            <parent-name>[parcoursup-filtered.csv]</parent-name>
+            <remote-alias>Effectif des admis néo bacheliers professionnels ayant eu une mention au bac</remote-alias>
+            <ordinal>76</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[parcoursup-filtered.csv_8595ADCFA9A04B57AFE3219FFD5954B1]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Dont effectif des admis issus du même établissement (BTS/CPGE)</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Dont effectif des admis issus du même établissement (BTS/CPGE)]</local-name>
+            <parent-name>[parcoursup-filtered.csv]</parent-name>
+            <remote-alias>Dont effectif des admis issus du même établissement (BTS/CPGE)</remote-alias>
+            <ordinal>77</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[parcoursup-filtered.csv_8595ADCFA9A04B57AFE3219FFD5954B1]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Dont effectif des admises issues du même établissement (BTS/CPGE)</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Dont effectif des admises issues du même établissement (BTS/CPGE)]</local-name>
+            <parent-name>[parcoursup-filtered.csv]</parent-name>
+            <remote-alias>Dont effectif des admises issues du même établissement (BTS/CPGE)</remote-alias>
+            <ordinal>78</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[parcoursup-filtered.csv_8595ADCFA9A04B57AFE3219FFD5954B1]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Dont effectif des admis issus de la même académie</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Dont effectif des admis issus de la même académie]</local-name>
+            <parent-name>[parcoursup-filtered.csv]</parent-name>
+            <remote-alias>Dont effectif des admis issus de la même académie</remote-alias>
+            <ordinal>79</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[parcoursup-filtered.csv_8595ADCFA9A04B57AFE3219FFD5954B1]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Dont effectif des admis issus de la même académie (Paris/Créteil/Versailles réunies)</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Dont effectif des admis issus de la même académie (Paris/Créteil/Versailles réunies)]</local-name>
+            <parent-name>[parcoursup-filtered.csv]</parent-name>
+            <remote-alias>Dont effectif des admis issus de la même académie (Paris/Créteil/Versailles réunies)</remote-alias>
+            <ordinal>80</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[parcoursup-filtered.csv_8595ADCFA9A04B57AFE3219FFD5954B1]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>% d’admis ayant reçu leur proposition d’admission à l&apos;ouverture de la procédure principale</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[% d’admis ayant reçu leur proposition d’admission à l&apos;ouverture de la procédure principale]</local-name>
+            <parent-name>[parcoursup-filtered.csv]</parent-name>
+            <remote-alias>% d’admis ayant reçu leur proposition d’admission à l&apos;ouverture de la procédure principale</remote-alias>
+            <ordinal>81</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[parcoursup-filtered.csv_8595ADCFA9A04B57AFE3219FFD5954B1]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>% d’admis ayant reçu leur proposition d’admission avant le baccalauréat</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[% d’admis ayant reçu leur proposition d’admission avant le baccalauréat]</local-name>
+            <parent-name>[parcoursup-filtered.csv]</parent-name>
+            <remote-alias>% d’admis ayant reçu leur proposition d’admission avant le baccalauréat</remote-alias>
+            <ordinal>82</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[parcoursup-filtered.csv_8595ADCFA9A04B57AFE3219FFD5954B1]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>% d’admis ayant reçu leur proposition d’admission avant la fin de la procédure principale</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[% d’admis ayant reçu leur proposition d’admission avant la fin de la procédure principale]</local-name>
+            <parent-name>[parcoursup-filtered.csv]</parent-name>
+            <remote-alias>% d’admis ayant reçu leur proposition d’admission avant la fin de la procédure principale</remote-alias>
+            <ordinal>83</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[parcoursup-filtered.csv_8595ADCFA9A04B57AFE3219FFD5954B1]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>% d’admis dont filles</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[% d’admis dont filles]</local-name>
+            <parent-name>[parcoursup-filtered.csv]</parent-name>
+            <remote-alias>% d’admis dont filles</remote-alias>
+            <ordinal>84</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[parcoursup-filtered.csv_8595ADCFA9A04B57AFE3219FFD5954B1]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>% d’admis néo bacheliers issus de la même académie</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[% d’admis néo bacheliers issus de la même académie]</local-name>
+            <parent-name>[parcoursup-filtered.csv]</parent-name>
+            <remote-alias>% d’admis néo bacheliers issus de la même académie</remote-alias>
+            <ordinal>85</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[parcoursup-filtered.csv_8595ADCFA9A04B57AFE3219FFD5954B1]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>% d’admis néo bacheliers issus de la même académie (Paris/Créteil/Versailles réunies)</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[% d’admis néo bacheliers issus de la même académie (Paris/Créteil/Versailles réunies)]</local-name>
+            <parent-name>[parcoursup-filtered.csv]</parent-name>
+            <remote-alias>% d’admis néo bacheliers issus de la même académie (Paris/Créteil/Versailles réunies)</remote-alias>
+            <ordinal>86</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[parcoursup-filtered.csv_8595ADCFA9A04B57AFE3219FFD5954B1]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>% d’admis néo bacheliers issus du même établissement (BTS/CPGE)</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[% d’admis néo bacheliers issus du même établissement (BTS/CPGE)]</local-name>
+            <parent-name>[parcoursup-filtered.csv]</parent-name>
+            <remote-alias>% d’admis néo bacheliers issus du même établissement (BTS/CPGE)</remote-alias>
+            <ordinal>87</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[parcoursup-filtered.csv_8595ADCFA9A04B57AFE3219FFD5954B1]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>% d’admis néo bacheliers boursiers</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[% d’admis néo bacheliers boursiers]</local-name>
+            <parent-name>[parcoursup-filtered.csv]</parent-name>
+            <remote-alias>% d’admis néo bacheliers boursiers</remote-alias>
+            <ordinal>88</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[parcoursup-filtered.csv_8595ADCFA9A04B57AFE3219FFD5954B1]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>% d’admis néo bacheliers</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[% d’admis néo bacheliers]</local-name>
+            <parent-name>[parcoursup-filtered.csv]</parent-name>
+            <remote-alias>% d’admis néo bacheliers</remote-alias>
+            <ordinal>89</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[parcoursup-filtered.csv_8595ADCFA9A04B57AFE3219FFD5954B1]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>% d’admis néo bacheliers sans information sur la mention au bac</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[% d’admis néo bacheliers sans information sur la mention au bac]</local-name>
+            <parent-name>[parcoursup-filtered.csv]</parent-name>
+            <remote-alias>% d’admis néo bacheliers sans information sur la mention au bac</remote-alias>
+            <ordinal>90</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[parcoursup-filtered.csv_8595ADCFA9A04B57AFE3219FFD5954B1]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>% d’admis néo bacheliers sans mention au bac</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[% d’admis néo bacheliers sans mention au bac]</local-name>
+            <parent-name>[parcoursup-filtered.csv]</parent-name>
+            <remote-alias>% d’admis néo bacheliers sans mention au bac</remote-alias>
+            <ordinal>91</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[parcoursup-filtered.csv_8595ADCFA9A04B57AFE3219FFD5954B1]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>% d’admis néo bacheliers avec mention Assez Bien au bac</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[% d’admis néo bacheliers avec mention Assez Bien au bac]</local-name>
+            <parent-name>[parcoursup-filtered.csv]</parent-name>
+            <remote-alias>% d’admis néo bacheliers avec mention Assez Bien au bac</remote-alias>
+            <ordinal>92</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[parcoursup-filtered.csv_8595ADCFA9A04B57AFE3219FFD5954B1]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>% d’admis néo bacheliers avec mention Bien au bac</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[% d’admis néo bacheliers avec mention Bien au bac]</local-name>
+            <parent-name>[parcoursup-filtered.csv]</parent-name>
+            <remote-alias>% d’admis néo bacheliers avec mention Bien au bac</remote-alias>
+            <ordinal>93</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[parcoursup-filtered.csv_8595ADCFA9A04B57AFE3219FFD5954B1]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>% d’admis néo bacheliers avec mention Très Bien au bac</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[% d’admis néo bacheliers avec mention Très Bien au bac]</local-name>
+            <parent-name>[parcoursup-filtered.csv]</parent-name>
+            <remote-alias>% d’admis néo bacheliers avec mention Très Bien au bac</remote-alias>
+            <ordinal>94</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[parcoursup-filtered.csv_8595ADCFA9A04B57AFE3219FFD5954B1]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>% d’admis néo bacheliers avec mention Très Bien avec félicitations au bac</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[% d’admis néo bacheliers avec mention Très Bien avec félicitations au bac]</local-name>
+            <parent-name>[parcoursup-filtered.csv]</parent-name>
+            <remote-alias>% d’admis néo bacheliers avec mention Très Bien avec félicitations au bac</remote-alias>
+            <ordinal>95</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[parcoursup-filtered.csv_8595ADCFA9A04B57AFE3219FFD5954B1]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>% d’admis néo bacheliers généraux</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[% d’admis néo bacheliers généraux]</local-name>
+            <parent-name>[parcoursup-filtered.csv]</parent-name>
+            <remote-alias>% d’admis néo bacheliers généraux</remote-alias>
+            <ordinal>96</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[parcoursup-filtered.csv_8595ADCFA9A04B57AFE3219FFD5954B1]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Dont % d’admis avec mention (BG)</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Dont % d’admis avec mention (BG)]</local-name>
+            <parent-name>[parcoursup-filtered.csv]</parent-name>
+            <remote-alias>Dont % d’admis avec mention (BG)</remote-alias>
+            <ordinal>97</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[parcoursup-filtered.csv_8595ADCFA9A04B57AFE3219FFD5954B1]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>% d’admis néo bacheliers technologiques</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[% d’admis néo bacheliers technologiques]</local-name>
+            <parent-name>[parcoursup-filtered.csv]</parent-name>
+            <remote-alias>% d’admis néo bacheliers technologiques</remote-alias>
+            <ordinal>98</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[parcoursup-filtered.csv_8595ADCFA9A04B57AFE3219FFD5954B1]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Dont % d’admis avec mention (BT)</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Dont % d’admis avec mention (BT)]</local-name>
+            <parent-name>[parcoursup-filtered.csv]</parent-name>
+            <remote-alias>Dont % d’admis avec mention (BT)</remote-alias>
+            <ordinal>99</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[parcoursup-filtered.csv_8595ADCFA9A04B57AFE3219FFD5954B1]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>% d’admis néo bacheliers professionnels</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[% d’admis néo bacheliers professionnels]</local-name>
+            <parent-name>[parcoursup-filtered.csv]</parent-name>
+            <remote-alias>% d’admis néo bacheliers professionnels</remote-alias>
+            <ordinal>100</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[parcoursup-filtered.csv_8595ADCFA9A04B57AFE3219FFD5954B1]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Dont % d’admis avec mention (BP)</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Dont % d’admis avec mention (BP)]</local-name>
+            <parent-name>[parcoursup-filtered.csv]</parent-name>
+            <remote-alias>Dont % d’admis avec mention (BP)</remote-alias>
+            <ordinal>101</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[parcoursup-filtered.csv_8595ADCFA9A04B57AFE3219FFD5954B1]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Effectif des candidats en terminale générale ayant reçu une proposition d’admission de la part de l’établissement</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Effectif des candidats en terminale générale ayant reçu une proposition d’admission de la part de l’établissement]</local-name>
+            <parent-name>[parcoursup-filtered.csv]</parent-name>
+            <remote-alias>Effectif des candidats en terminale générale ayant reçu une proposition d’admission de la part de l’établissement</remote-alias>
+            <ordinal>102</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[parcoursup-filtered.csv_8595ADCFA9A04B57AFE3219FFD5954B1]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Dont effectif des candidats boursiers en terminale générale ayant reçu une proposition d’admission de la part de l’établissemen</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Dont effectif des candidats boursiers en terminale générale ayant reçu une proposition d’admission de la part de l’établissemen]</local-name>
+            <parent-name>[parcoursup-filtered.csv]</parent-name>
+            <remote-alias>Dont effectif des candidats boursiers en terminale générale ayant reçu une proposition d’admission de la part de l’établissemen</remote-alias>
+            <ordinal>103</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[parcoursup-filtered.csv_8595ADCFA9A04B57AFE3219FFD5954B1]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Effectif des candidats en terminale technologique ayant reçu une proposition d’admission de la part de l’établissement</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Effectif des candidats en terminale technologique ayant reçu une proposition d’admission de la part de l’établissement]</local-name>
+            <parent-name>[parcoursup-filtered.csv]</parent-name>
+            <remote-alias>Effectif des candidats en terminale technologique ayant reçu une proposition d’admission de la part de l’établissement</remote-alias>
+            <ordinal>104</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[parcoursup-filtered.csv_8595ADCFA9A04B57AFE3219FFD5954B1]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Dont effectif des candidats boursiers en terminale technologique ayant reçu une proposition d’admission de la part de l’établis</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Dont effectif des candidats boursiers en terminale technologique ayant reçu une proposition d’admission de la part de l’établis]</local-name>
+            <parent-name>[parcoursup-filtered.csv]</parent-name>
+            <remote-alias>Dont effectif des candidats boursiers en terminale technologique ayant reçu une proposition d’admission de la part de l’établis</remote-alias>
+            <ordinal>105</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[parcoursup-filtered.csv_8595ADCFA9A04B57AFE3219FFD5954B1]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Effectif des candidats en terminale professionnelle ayant reçu une proposition d’admission de la part de l’établissement</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Effectif des candidats en terminale professionnelle ayant reçu une proposition d’admission de la part de l’établissement]</local-name>
+            <parent-name>[parcoursup-filtered.csv]</parent-name>
+            <remote-alias>Effectif des candidats en terminale professionnelle ayant reçu une proposition d’admission de la part de l’établissement</remote-alias>
+            <ordinal>106</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[parcoursup-filtered.csv_8595ADCFA9A04B57AFE3219FFD5954B1]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Dont effectif des candidats boursiers en terminale générale professionnelle ayant reçu une proposition d’admission de la part d</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Dont effectif des candidats boursiers en terminale générale professionnelle ayant reçu une proposition d’admission de la part d]</local-name>
+            <parent-name>[parcoursup-filtered.csv]</parent-name>
+            <remote-alias>Dont effectif des candidats boursiers en terminale générale professionnelle ayant reçu une proposition d’admission de la part d</remote-alias>
+            <ordinal>107</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[parcoursup-filtered.csv_8595ADCFA9A04B57AFE3219FFD5954B1]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Effectif des autres candidats ayant reçu une proposition d’admission de la part de l’établissement</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Effectif des autres candidats ayant reçu une proposition d’admission de la part de l’établissement]</local-name>
+            <parent-name>[parcoursup-filtered.csv]</parent-name>
+            <remote-alias>Effectif des autres candidats ayant reçu une proposition d’admission de la part de l’établissement</remote-alias>
+            <ordinal>108</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[parcoursup-filtered.csv_8595ADCFA9A04B57AFE3219FFD5954B1]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Regroupement 1 effectué par les formations pour les classements</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Regroupement 1 effectué par les formations pour les classements]</local-name>
+            <parent-name>[parcoursup-filtered.csv]</parent-name>
+            <remote-alias>Regroupement 1 effectué par les formations pour les classements</remote-alias>
+            <ordinal>109</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[parcoursup-filtered.csv_8595ADCFA9A04B57AFE3219FFD5954B1]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Rang du dernier appelé du groupe 1</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Rang du dernier appelé du groupe 1]</local-name>
+            <parent-name>[parcoursup-filtered.csv]</parent-name>
+            <remote-alias>Rang du dernier appelé du groupe 1</remote-alias>
+            <ordinal>110</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[parcoursup-filtered.csv_8595ADCFA9A04B57AFE3219FFD5954B1]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Regroupement 2 effectué par les formations pour les classements</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Regroupement 2 effectué par les formations pour les classements]</local-name>
+            <parent-name>[parcoursup-filtered.csv]</parent-name>
+            <remote-alias>Regroupement 2 effectué par les formations pour les classements</remote-alias>
+            <ordinal>111</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[parcoursup-filtered.csv_8595ADCFA9A04B57AFE3219FFD5954B1]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Rang du dernier appelé du groupe 2</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Rang du dernier appelé du groupe 2]</local-name>
+            <parent-name>[parcoursup-filtered.csv]</parent-name>
+            <remote-alias>Rang du dernier appelé du groupe 2</remote-alias>
+            <ordinal>112</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[parcoursup-filtered.csv_8595ADCFA9A04B57AFE3219FFD5954B1]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Regroupement 3 effectué par les formations pour les classements</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Regroupement 3 effectué par les formations pour les classements]</local-name>
+            <parent-name>[parcoursup-filtered.csv]</parent-name>
+            <remote-alias>Regroupement 3 effectué par les formations pour les classements</remote-alias>
+            <ordinal>113</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[parcoursup-filtered.csv_8595ADCFA9A04B57AFE3219FFD5954B1]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Rang du dernier appelé du groupe 3</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Rang du dernier appelé du groupe 3]</local-name>
+            <parent-name>[parcoursup-filtered.csv]</parent-name>
+            <remote-alias>Rang du dernier appelé du groupe 3</remote-alias>
+            <ordinal>114</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[parcoursup-filtered.csv_8595ADCFA9A04B57AFE3219FFD5954B1]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>list_com</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[list_com]</local-name>
+            <parent-name>[parcoursup-filtered.csv]</parent-name>
+            <remote-alias>list_com</remote-alias>
+            <ordinal>115</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[parcoursup-filtered.csv_8595ADCFA9A04B57AFE3219FFD5954B1]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>tri</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[tri]</local-name>
+            <parent-name>[parcoursup-filtered.csv]</parent-name>
+            <remote-alias>tri</remote-alias>
+            <ordinal>116</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[parcoursup-filtered.csv_8595ADCFA9A04B57AFE3219FFD5954B1]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>cod_aff_form</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[cod_aff_form]</local-name>
+            <parent-name>[parcoursup-filtered.csv]</parent-name>
+            <remote-alias>cod_aff_form</remote-alias>
+            <ordinal>117</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[parcoursup-filtered.csv_8595ADCFA9A04B57AFE3219FFD5954B1]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Taux d’accès</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Taux d’accès]</local-name>
+            <parent-name>[parcoursup-filtered.csv]</parent-name>
+            <remote-alias>Taux d’accès</remote-alias>
+            <ordinal>118</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[parcoursup-filtered.csv_8595ADCFA9A04B57AFE3219FFD5954B1]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Part des terminales générales qui étaient en position de recevoir une proposition en phase principale</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Part des terminales générales qui étaient en position de recevoir une proposition en phase principale]</local-name>
+            <parent-name>[parcoursup-filtered.csv]</parent-name>
+            <remote-alias>Part des terminales générales qui étaient en position de recevoir une proposition en phase principale</remote-alias>
+            <ordinal>119</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[parcoursup-filtered.csv_8595ADCFA9A04B57AFE3219FFD5954B1]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Part des terminales technologiques qui étaient en position de recevoir une proposition en phase principale</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Part des terminales technologiques qui étaient en position de recevoir une proposition en phase principale]</local-name>
+            <parent-name>[parcoursup-filtered.csv]</parent-name>
+            <remote-alias>Part des terminales technologiques qui étaient en position de recevoir une proposition en phase principale</remote-alias>
+            <ordinal>120</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[parcoursup-filtered.csv_8595ADCFA9A04B57AFE3219FFD5954B1]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Part des terminales professionnelles qui étaient en position de recevoir une proposition en phase principale</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Part des terminales professionnelles qui étaient en position de recevoir une proposition en phase principale]</local-name>
+            <parent-name>[parcoursup-filtered.csv]</parent-name>
+            <remote-alias>Part des terminales professionnelles qui étaient en position de recevoir une proposition en phase principale</remote-alias>
+            <ordinal>121</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[parcoursup-filtered.csv_8595ADCFA9A04B57AFE3219FFD5954B1]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>composante_id_paysage</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[composante_id_paysage]</local-name>
+            <parent-name>[parcoursup-filtered.csv]</parent-name>
+            <remote-alias>composante_id_paysage</remote-alias>
+            <ordinal>122</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[parcoursup-filtered.csv_8595ADCFA9A04B57AFE3219FFD5954B1]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Population</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Population]</local-name>
+            <parent-name>[parcoursup-filtered.csv]</parent-name>
+            <remote-alias>Population</remote-alias>
+            <ordinal>123</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[parcoursup-filtered.csv_8595ADCFA9A04B57AFE3219FFD5954B1]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column caption='% D’Admis Ayant Reçu Leur Proposition D’Admission Avant La Fin De La Procédure Principale' datatype='integer' name='[% d’admis ayant reçu leur proposition d’admission avant la fin de la procédure principale]' role='measure' type='quantitative' />
+      <column caption='% D’Admis Ayant Reçu Leur Proposition D’Admission Avant Le Baccalauréat' datatype='integer' name='[% d’admis ayant reçu leur proposition d’admission avant le baccalauréat]' role='measure' type='quantitative' />
+      <column caption='% D’Admis Ayant Reçu Leur Proposition D’Admission À L&apos;Ouverture De La Procédure Principale' datatype='integer' name='[% d’admis ayant reçu leur proposition d’admission à l&apos;ouverture de la procédure principale]' role='measure' type='quantitative' />
+      <column caption='% D’Admis Dont Filles' datatype='integer' name='[% d’admis dont filles]' role='measure' type='quantitative' />
+      <column caption='% D’Admis Néo Bacheliers Boursiers' datatype='integer' name='[% d’admis néo bacheliers boursiers]' role='measure' type='quantitative' />
+      <column caption='% D’Admis Néo Bacheliers Généraux' datatype='integer' name='[% d’admis néo bacheliers généraux]' role='measure' type='quantitative' />
+      <column caption='% D’Admis Néo Bacheliers Issus De La Même Académie' datatype='integer' name='[% d’admis néo bacheliers issus de la même académie]' role='measure' type='quantitative' />
+      <column caption='% D’Admis Néo Bacheliers Professionnels' datatype='integer' name='[% d’admis néo bacheliers professionnels]' role='measure' type='quantitative' />
+      <column caption='% D’Admis Néo Bacheliers Sans Information Sur La Mention Au Bac' datatype='integer' name='[% d’admis néo bacheliers sans information sur la mention au bac]' role='measure' type='quantitative' />
+      <column caption='% D’Admis Néo Bacheliers Sans Mention Au Bac' datatype='integer' name='[% d’admis néo bacheliers sans mention au bac]' role='measure' type='quantitative' />
+      <column caption='% D’Admis Néo Bacheliers Technologiques' datatype='integer' name='[% d’admis néo bacheliers technologiques]' role='measure' type='quantitative' />
+      <column caption='% D’Admis Néo Bacheliers' datatype='integer' name='[% d’admis néo bacheliers]' role='measure' type='quantitative' />
+      <column caption='Académie' datatype='string' name='[Académie de l’établissement]' role='dimension' type='nominal' />
+      <column datatype='string' name='[Filière de formation très agrégée (group)]' role='dimension' type='nominal'>
+        <calculation class='categorical-bin' column='[Filière de formation très agrégée]' new-bin='true'>
+          <bin default-name='false' value='&quot;Autre&quot;'>
+            <value>&quot;Autre formation&quot;</value>
+            <value>&quot;EFTS&quot;</value>
+          </bin>
+          <bin default-name='false' value='&quot;Grande Ecole&quot;'>
+            <value>&quot;Ecole d&apos;Ingénieur&quot;</value>
+            <value>&quot;Ecole de Commerce&quot;</value>
+          </bin>
+          <bin default-name='false' value='&quot;Parcours Santé&quot;'>
+            <value>&quot;IFSI&quot;</value>
+            <value>&quot;Licence_Las&quot;</value>
+            <value>&quot;PASS&quot;</value>
+          </bin>
+        </calculation>
+      </column>
+      <column datatype='string' name='[Filière de formation très agrégée]' role='dimension' type='nominal' />
+      <column caption='Région' datatype='string' name='[Région de l’établissement]' role='dimension' type='nominal' />
+      <column datatype='string' name='[Statut de l’établissement de la filière de formation (public, privé…)]' role='dimension' type='nominal' />
+      <_.fcp.ObjectModelTableType.true...column caption='parcoursup-filtered.csv' datatype='table' name='[__tableau_internal_object_id__].[parcoursup-filtered.csv_8595ADCFA9A04B57AFE3219FFD5954B1]' role='measure' type='quantitative' />
+      <column caption='Cod Aff Form' datatype='integer' name='[cod_aff_form]' role='measure' type='quantitative' />
+      <column caption='Composante Id Paysage' datatype='string' name='[composante_id_paysage]' role='dimension' type='nominal' />
+      <column caption='Etablissement Id Paysage' datatype='string' name='[etablissement_id_paysage]' role='dimension' type='nominal' />
+      <column caption='Geom' datatype='string' name='[geom]' role='dimension' type='nominal' />
+      <column caption='List Com' datatype='string' name='[list_com]' role='dimension' type='nominal' />
+      <column caption='Tri' datatype='string' name='[tri]' role='dimension' type='nominal' />
+      <column-instance column='[Région de l’établissement]' derivation='None' name='[none:Région de l’établissement:nk]' pivot='key' type='nominal' />
+      <column-instance column='[Statut de l’établissement de la filière de formation (public, privé…)]' derivation='None' name='[none:Statut de l’établissement de la filière de formation (public, privé…):nk]' pivot='key' type='nominal' />
+      <group hidden='true' name='[Exclusions (Région de l’établissement,Statut de l’établissement de la filière de formation (public, privé…))]' name-style='unqualified' user:auto-column='exclude'>
+        <groupfilter function='crossjoin'>
+          <groupfilter function='level-members' level='[none:Région de l’établissement:nk]' />
+          <groupfilter function='level-members' level='[none:Statut de l’établissement de la filière de formation (public, privé…):nk]' />
+        </groupfilter>
+      </group>
+      <layout _.fcp.SchemaViewerObjectModel.false...dim-percentage='0.5' _.fcp.SchemaViewerObjectModel.false...measure-percentage='0.4' dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <style>
+        <style-rule element='mark'>
+          <encoding attr='color' field='[Filière de formation très agrégée (group)]' palette='red_gold_10_0' type='palette'>
+            <map to='#4e79a7'>
+              <bucket>&quot;Autre formation&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;Ecole d&apos;Ingénieur&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;Licence_Las&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;Ecole de Commerce&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;EFTS&quot;</bucket>
+            </map>
+            <map to='#b71d3e'>
+              <bucket>&quot;Parcours Santé&quot;</bucket>
+            </map>
+            <map to='#cb3c43'>
+              <bucket>&quot;Licence&quot;</bucket>
+            </map>
+            <map to='#de5747'>
+              <bucket>&quot;Grande Ecole&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;PASS&quot;</bucket>
+            </map>
+            <map to='#ee734a'>
+              <bucket>&quot;CPGE&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;IFSI&quot;</bucket>
+            </map>
+            <map to='#f4d166'>
+              <bucket>&quot;Autre&quot;</bucket>
+            </map>
+            <map to='#f8b053'>
+              <bucket>&quot;BTS&quot;</bucket>
+            </map>
+            <map to='#fa8f4d'>
+              <bucket>&quot;BUT&quot;</bucket>
+            </map>
+          </encoding>
+        </style-rule>
+      </style>
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;France&quot;' />
+      </semantic-values>
+      <field-sort-info field-sort-order-type='alphabetical-order' />
+      <_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+        <objects>
+          <object caption='parcoursup-filtered.csv' id='parcoursup-filtered.csv_8595ADCFA9A04B57AFE3219FFD5954B1'>
+            <properties context=''>
+              <relation connection='textscan.1eeh1oh17lom0n12q63kv1fwzlxv' name='parcoursup-filtered.csv' table='[parcoursup-filtered#csv]' type='table'>
+                <columns character-set='UTF-8' header='yes' locale='en_US' separator=','>
+                  <column datatype='string' name='Selected' ordinal='0' />
+                  <column datatype='string' name='Code UAI de l&apos;établissement' ordinal='1' />
+                  <column datatype='string' name='Établissement' ordinal='2' />
+                  <column datatype='integer' name='Code départemental de l’établissement' ordinal='3' />
+                  <column datatype='string' name='Département de l’établissement' ordinal='4' />
+                  <column datatype='string' name='Commune de l’établissement' ordinal='5' />
+                  <column datatype='string' name='Filière de formation' ordinal='6' />
+                  <column datatype='string' name='Filière de formation détaillée' ordinal='7' />
+                  <column datatype='string' name='Filière de formation détaillée bis' ordinal='8' />
+                  <column datatype='string' name='Filière de formation très détaillée' ordinal='9' />
+                  <column datatype='string' name='Coordonnées GPS de la formation' ordinal='10' />
+                  <column datatype='string' name='Concours communs et banque d&apos;épreuves' ordinal='11' />
+                  <column datatype='string' name='Lien de la formation sur la plateforme Parcoursup' ordinal='12' />
+                  <column datatype='string' name='etablissement_id_paysage' ordinal='13' />
+                  <column datatype='string' name='Département' ordinal='14' />
+                  <column datatype='string' name='geom' ordinal='15' />
+                  <column datatype='string' name='Geo Point 2D' ordinal='16' />
+                  <column datatype='string' name='Selected (1)' ordinal='17' />
+                  <column datatype='integer' name='Session' ordinal='18' />
+                  <column datatype='string' name='Statut de l’établissement de la filière de formation (public, privé…)' ordinal='19' />
+                  <column datatype='string' name='Région de l’établissement' ordinal='20' />
+                  <column datatype='string' name='Académie de l’établissement' ordinal='21' />
+                  <column datatype='string' name='Sélectivité' ordinal='22' />
+                  <column datatype='string' name='Filière de formation très agrégée' ordinal='23' />
+                  <column datatype='string' name='Filière de formation.1' ordinal='24' />
+                  <column datatype='integer' name='Capacité de l’établissement par formation' ordinal='25' />
+                  <column datatype='integer' name='Effectif total des candidats pour une formation' ordinal='26' />
+                  <column datatype='integer' name='Dont effectif des candidates pour une formation' ordinal='27' />
+                  <column datatype='integer' name='Effectif total des candidats en phase principale' ordinal='28' />
+                  <column datatype='integer' name='Dont effectif des candidats ayant postulé en internat' ordinal='29' />
+                  <column datatype='integer' name='Effectif des candidats néo bacheliers généraux en phase principale' ordinal='30' />
+                  <column datatype='integer' name='Dont effectif des candidats boursiers néo bacheliers généraux en phase principale' ordinal='31' />
+                  <column datatype='integer' name='Effectif des candidats néo bacheliers technologiques en phase principale' ordinal='32' />
+                  <column datatype='integer' name='Dont effectif des candidats boursiers néo bacheliers technologiques en phase principale' ordinal='33' />
+                  <column datatype='integer' name='Effectif des candidats néo bacheliers professionnels en phase principale' ordinal='34' />
+                  <column datatype='integer' name='Dont effectif des candidats boursiers néo bacheliers professionnels en phase principale' ordinal='35' />
+                  <column datatype='integer' name='Effectif des autres candidats en phase principale' ordinal='36' />
+                  <column datatype='integer' name='Effectif total des candidats en phase complémentaire' ordinal='37' />
+                  <column datatype='integer' name='Effectif des candidats néo bacheliers généraux en phase complémentaire' ordinal='38' />
+                  <column datatype='integer' name='Effectif des candidats néo bacheliers technologique en phase complémentaire' ordinal='39' />
+                  <column datatype='integer' name='Effectif des candidats néo bacheliers professionnels en phase complémentaire' ordinal='40' />
+                  <column datatype='integer' name='Effectifs des autres candidats en phase complémentaire' ordinal='41' />
+                  <column datatype='integer' name='Effectif total des candidats classés par l’établissement en phase principale' ordinal='42' />
+                  <column datatype='integer' name='Effectif des candidats classés par l’établissement en phase complémentaire' ordinal='43' />
+                  <column datatype='integer' name='Effectif des candidats classés par l’établissement en internat (CPGE)' ordinal='44' />
+                  <column datatype='integer' name='Effectif des candidats classés par l’établissement hors internat (CPGE)' ordinal='45' />
+                  <column datatype='integer' name='Effectif des candidats néo bacheliers généraux classés par l’établissement' ordinal='46' />
+                  <column datatype='integer' name='Dont effectif des candidats boursiers néo bacheliers généraux classés par l’établissement' ordinal='47' />
+                  <column datatype='integer' name='Effectif des candidats néo bacheliers technologiques classés par l’établissement' ordinal='48' />
+                  <column datatype='integer' name='Dont effectif des candidats boursiers néo bacheliers technologiques classés par l’établissement' ordinal='49' />
+                  <column datatype='integer' name='Effectif des candidats néo bacheliers professionnels classés par l’établissement' ordinal='50' />
+                  <column datatype='integer' name='Dont effectif des candidats boursiers néo bacheliers professionnels classés par l’établissement' ordinal='51' />
+                  <column datatype='integer' name='Effectif des autres candidats classés par l’établissement' ordinal='52' />
+                  <column datatype='integer' name='Effectif total des candidats ayant reçu une proposition d’admission de la part de l’établissement' ordinal='53' />
+                  <column datatype='integer' name='Effectif total des candidats ayant accepté la proposition de l’établissement (admis)' ordinal='54' />
+                  <column datatype='integer' name='Dont effectif des candidates admises' ordinal='55' />
+                  <column datatype='integer' name='Effectif des admis en phase principale' ordinal='56' />
+                  <column datatype='integer' name='Effectif des admis en phase complémentaire' ordinal='57' />
+                  <column datatype='integer' name='Dont effectif des admis ayant reçu leur proposition d’admission à l&apos;ouverture de la procédure principale' ordinal='58' />
+                  <column datatype='integer' name='Dont effectif des admis ayant reçu leur proposition d’admission avant le baccalauréat' ordinal='59' />
+                  <column datatype='integer' name='Dont effectif des admis ayant reçu leur proposition d’admission avant la fin de la procédure principale' ordinal='60' />
+                  <column datatype='integer' name='Dont effectif des admis en internat' ordinal='61' />
+                  <column datatype='integer' name='Dont effectif des admis boursiers néo bacheliers' ordinal='62' />
+                  <column datatype='integer' name='Effectif des admis néo bacheliers' ordinal='63' />
+                  <column datatype='integer' name='Effectif des admis néo bacheliers généraux' ordinal='64' />
+                  <column datatype='integer' name='Effectif des admis néo bacheliers technologiques' ordinal='65' />
+                  <column datatype='integer' name='Effectif des admis néo bacheliers professionnels' ordinal='66' />
+                  <column datatype='integer' name='Effectif des autres candidats admis' ordinal='67' />
+                  <column datatype='integer' name='Dont effectif des admis néo bacheliers sans information sur la mention au bac' ordinal='68' />
+                  <column datatype='integer' name='Dont effectif des admis néo bacheliers sans mention au bac' ordinal='69' />
+                  <column datatype='integer' name='Dont effectif des admis néo bacheliers avec mention Assez Bien au bac' ordinal='70' />
+                  <column datatype='integer' name='Dont effectif des admis néo bacheliers avec mention Bien au bac' ordinal='71' />
+                  <column datatype='integer' name='Dont effectif des admis néo bacheliers avec mention Très Bien au bac' ordinal='72' />
+                  <column datatype='integer' name='Dont effectif des admis néo bacheliers avec mention Très Bien avec félicitations au bac' ordinal='73' />
+                  <column datatype='integer' name='Effectif des admis néo bacheliers généraux ayant eu une mention au bac' ordinal='74' />
+                  <column datatype='integer' name='Effectif des admis néo bacheliers technologiques ayant eu une mention au bac' ordinal='75' />
+                  <column datatype='integer' name='Effectif des admis néo bacheliers professionnels ayant eu une mention au bac' ordinal='76' />
+                  <column datatype='integer' name='Dont effectif des admis issus du même établissement (BTS/CPGE)' ordinal='77' />
+                  <column datatype='integer' name='Dont effectif des admises issues du même établissement (BTS/CPGE)' ordinal='78' />
+                  <column datatype='integer' name='Dont effectif des admis issus de la même académie' ordinal='79' />
+                  <column datatype='integer' name='Dont effectif des admis issus de la même académie (Paris/Créteil/Versailles réunies)' ordinal='80' />
+                  <column datatype='integer' name='% d’admis ayant reçu leur proposition d’admission à l&apos;ouverture de la procédure principale' ordinal='81' />
+                  <column datatype='integer' name='% d’admis ayant reçu leur proposition d’admission avant le baccalauréat' ordinal='82' />
+                  <column datatype='integer' name='% d’admis ayant reçu leur proposition d’admission avant la fin de la procédure principale' ordinal='83' />
+                  <column datatype='integer' name='% d’admis dont filles' ordinal='84' />
+                  <column datatype='integer' name='% d’admis néo bacheliers issus de la même académie' ordinal='85' />
+                  <column datatype='integer' name='% d’admis néo bacheliers issus de la même académie (Paris/Créteil/Versailles réunies)' ordinal='86' />
+                  <column datatype='integer' name='% d’admis néo bacheliers issus du même établissement (BTS/CPGE)' ordinal='87' />
+                  <column datatype='integer' name='% d’admis néo bacheliers boursiers' ordinal='88' />
+                  <column datatype='integer' name='% d’admis néo bacheliers' ordinal='89' />
+                  <column datatype='integer' name='% d’admis néo bacheliers sans information sur la mention au bac' ordinal='90' />
+                  <column datatype='integer' name='% d’admis néo bacheliers sans mention au bac' ordinal='91' />
+                  <column datatype='integer' name='% d’admis néo bacheliers avec mention Assez Bien au bac' ordinal='92' />
+                  <column datatype='integer' name='% d’admis néo bacheliers avec mention Bien au bac' ordinal='93' />
+                  <column datatype='integer' name='% d’admis néo bacheliers avec mention Très Bien au bac' ordinal='94' />
+                  <column datatype='integer' name='% d’admis néo bacheliers avec mention Très Bien avec félicitations au bac' ordinal='95' />
+                  <column datatype='integer' name='% d’admis néo bacheliers généraux' ordinal='96' />
+                  <column datatype='integer' name='Dont % d’admis avec mention (BG)' ordinal='97' />
+                  <column datatype='integer' name='% d’admis néo bacheliers technologiques' ordinal='98' />
+                  <column datatype='integer' name='Dont % d’admis avec mention (BT)' ordinal='99' />
+                  <column datatype='integer' name='% d’admis néo bacheliers professionnels' ordinal='100' />
+                  <column datatype='integer' name='Dont % d’admis avec mention (BP)' ordinal='101' />
+                  <column datatype='integer' name='Effectif des candidats en terminale générale ayant reçu une proposition d’admission de la part de l’établissement' ordinal='102' />
+                  <column datatype='integer' name='Dont effectif des candidats boursiers en terminale générale ayant reçu une proposition d’admission de la part de l’établissemen' ordinal='103' />
+                  <column datatype='integer' name='Effectif des candidats en terminale technologique ayant reçu une proposition d’admission de la part de l’établissement' ordinal='104' />
+                  <column datatype='integer' name='Dont effectif des candidats boursiers en terminale technologique ayant reçu une proposition d’admission de la part de l’établis' ordinal='105' />
+                  <column datatype='integer' name='Effectif des candidats en terminale professionnelle ayant reçu une proposition d’admission de la part de l’établissement' ordinal='106' />
+                  <column datatype='integer' name='Dont effectif des candidats boursiers en terminale générale professionnelle ayant reçu une proposition d’admission de la part d' ordinal='107' />
+                  <column datatype='integer' name='Effectif des autres candidats ayant reçu une proposition d’admission de la part de l’établissement' ordinal='108' />
+                  <column datatype='string' name='Regroupement 1 effectué par les formations pour les classements' ordinal='109' />
+                  <column datatype='integer' name='Rang du dernier appelé du groupe 1' ordinal='110' />
+                  <column datatype='string' name='Regroupement 2 effectué par les formations pour les classements' ordinal='111' />
+                  <column datatype='integer' name='Rang du dernier appelé du groupe 2' ordinal='112' />
+                  <column datatype='string' name='Regroupement 3 effectué par les formations pour les classements' ordinal='113' />
+                  <column datatype='integer' name='Rang du dernier appelé du groupe 3' ordinal='114' />
+                  <column datatype='string' name='list_com' ordinal='115' />
+                  <column datatype='string' name='tri' ordinal='116' />
+                  <column datatype='integer' name='cod_aff_form' ordinal='117' />
+                  <column datatype='integer' name='Taux d’accès' ordinal='118' />
+                  <column datatype='integer' name='Part des terminales générales qui étaient en position de recevoir une proposition en phase principale' ordinal='119' />
+                  <column datatype='integer' name='Part des terminales technologiques qui étaient en position de recevoir une proposition en phase principale' ordinal='120' />
+                  <column datatype='integer' name='Part des terminales professionnelles qui étaient en position de recevoir une proposition en phase principale' ordinal='121' />
+                  <column datatype='string' name='composante_id_paysage' ordinal='122' />
+                  <column datatype='integer' name='Population' ordinal='123' />
+                </columns>
+              </relation>
+            </properties>
+          </object>
+        </objects>
+      </_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+    </datasource>
+  </datasources>
+  <worksheets>
+    <worksheet name='Sheet 1'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run>Places disponible par habitants</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='parcoursup-filtered' name='federated.0k8udf71tvh30y10r32kh0xpdwxv' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0k8udf71tvh30y10r32kh0xpdwxv'>
+            <column caption='SUM([Capacité de l’établissement par formation]/[Population])' datatype='real' name='[Calculation_1095782089006157831]' role='measure' type='quantitative' user:unnamed='Sheet 1'>
+              <calculation class='tableau' formula='SUM([Capacité de l’établissement par formation]/[Population])' />
+            </column>
+            <column datatype='integer' name='[Capacité de l’établissement par formation]' role='measure' type='quantitative' />
+            <column datatype='string' name='[Filière de formation très agrégée (group)]' role='dimension' type='nominal'>
+              <calculation class='categorical-bin' column='[Filière de formation très agrégée]' new-bin='true'>
+                <bin default-name='false' value='&quot;Autre&quot;'>
+                  <value>&quot;Autre formation&quot;</value>
+                  <value>&quot;EFTS&quot;</value>
+                </bin>
+                <bin default-name='false' value='&quot;Grande Ecole&quot;'>
+                  <value>&quot;Ecole d&apos;Ingénieur&quot;</value>
+                  <value>&quot;Ecole de Commerce&quot;</value>
+                </bin>
+                <bin default-name='false' value='&quot;Parcours Santé&quot;'>
+                  <value>&quot;IFSI&quot;</value>
+                  <value>&quot;Licence_Las&quot;</value>
+                  <value>&quot;PASS&quot;</value>
+                </bin>
+              </calculation>
+            </column>
+            <column datatype='string' name='[Filière de formation très agrégée]' role='dimension' type='nominal' />
+            <column datatype='integer' name='[Population]' role='measure' type='quantitative' />
+            <column caption='Région' datatype='string' name='[Région de l’établissement]' role='dimension' type='nominal' />
+            <column datatype='string' name='[Statut de l’établissement de la filière de formation (public, privé…)]' role='dimension' type='nominal' />
+            <column-instance column='[Région de l’établissement]' derivation='None' name='[none:Région de l’établissement:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Statut de l’établissement de la filière de formation (public, privé…)]' derivation='None' name='[none:Statut de l’établissement de la filière de formation (public, privé…):nk]' pivot='key' type='nominal' />
+            <column-instance column='[Calculation_1095782089006157831]' derivation='User' name='[usr:Calculation_1095782089006157831:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.0k8udf71tvh30y10r32kh0xpdwxv].[Exclusions (Région de l’établissement,Statut de l’établissement de la filière de formation (public, privé…))]'>
+            <groupfilter function='except' user:ui-domain='database' user:ui-enumeration='exclusive' user:ui-marker='enumerate'>
+              <groupfilter function='crossjoin'>
+                <groupfilter function='level-members' level='[none:Région de l’établissement:nk]' />
+                <groupfilter function='level-members' level='[none:Statut de l’établissement de la filière de formation (public, privé…):nk]' />
+              </groupfilter>
+              <groupfilter function='crossjoin'>
+                <groupfilter function='member' level='[none:Région de l’établissement:nk]' member='&quot;Guadeloupe&quot;' />
+                <groupfilter function='union'>
+                  <groupfilter function='member' level='[none:Statut de l’établissement de la filière de formation (public, privé…):nk]' member='&quot;Privé hors contrat&quot;' />
+                  <groupfilter function='member' level='[none:Statut de l’établissement de la filière de formation (public, privé…):nk]' member='&quot;Privé sous contrat d&apos;association&quot;' />
+                  <groupfilter function='member' level='[none:Statut de l’établissement de la filière de formation (public, privé…):nk]' member='&quot;Public&quot;' />
+                </groupfilter>
+              </groupfilter>
+            </groupfilter>
+          </filter>
+          <filter class='categorical' column='[federated.0k8udf71tvh30y10r32kh0xpdwxv].[none:Région de l’établissement:nk]'>
+            <groupfilter function='except' user:ui-domain='relevant' user:ui-enumeration='exclusive' user:ui-marker='enumerate'>
+              <groupfilter function='level-members' level='[none:Région de l’établissement:nk]' />
+              <groupfilter function='union'>
+                <groupfilter function='member' level='[none:Région de l’établissement:nk]' member='&quot;Guyane&quot;' />
+                <groupfilter function='member' level='[none:Région de l’établissement:nk]' member='&quot;La Réunion&quot;' />
+                <groupfilter function='member' level='[none:Région de l’établissement:nk]' member='&quot;Martinique&quot;' />
+                <groupfilter function='member' level='[none:Région de l’établissement:nk]' member='&quot;Mayotte&quot;' />
+              </groupfilter>
+            </groupfilter>
+          </filter>
+          <shelf-sorts>
+            <shelf-sort-v2 dimension-to-sort='[federated.0k8udf71tvh30y10r32kh0xpdwxv].[none:Région de l’établissement:nk]' direction='DESC' is-on-innermost-dimension='true' measure-to-sort-by='[federated.0k8udf71tvh30y10r32kh0xpdwxv].[usr:Calculation_1095782089006157831:qk]' shelf='columns' />
+          </shelf-sorts>
+          <slices>
+            <column>[federated.0k8udf71tvh30y10r32kh0xpdwxv].[none:Région de l’établissement:nk]</column>
+            <column>[federated.0k8udf71tvh30y10r32kh0xpdwxv].[Exclusions (Région de l’établissement,Statut de l’établissement de la filière de formation (public, privé…))]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <format attr='title' class='0' field='[federated.0k8udf71tvh30y10r32kh0xpdwxv].[usr:Calculation_1095782089006157831:qk]' scope='rows' value='Places par habitants' />
+            <format attr='height' field='[federated.0k8udf71tvh30y10r32kh0xpdwxv].[none:Région de l’établissement:nk]' value='116' />
+          </style-rule>
+          <style-rule element='label'>
+            <format attr='text-orientation' field='[federated.0k8udf71tvh30y10r32kh0xpdwxv].[none:Région de l’établissement:nk]' value='-90' />
+          </style-rule>
+          <style-rule element='legend-title-text'>
+            <format attr='color' field='[federated.0k8udf71tvh30y10r32kh0xpdwxv].[Filière de formation très agrégée (group)]' value='Formation Santé'>
+              <formatted-text>
+                <run>Formation Santé</run>
+              </formatted-text>
+            </format>
+          </style-rule>
+        </style>
+        <panes>
+          <pane id='3' selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.0k8udf71tvh30y10r32kh0xpdwxv].[Filière de formation très agrégée (group)]' />
+            </encodings>
+          </pane>
+        </panes>
+        <rows>[federated.0k8udf71tvh30y10r32kh0xpdwxv].[usr:Calculation_1095782089006157831:qk]</rows>
+        <cols>[federated.0k8udf71tvh30y10r32kh0xpdwxv].[none:Région de l’établissement:nk]</cols>
+      </table>
+      <simple-id uuid='{FDD90FF0-8316-4274-9E94-9AFE79B2073A}' />
+    </worksheet>
+  </worksheets>
+  <dashboards>
+    <dashboard _.fcp.AccessibleZoneTabOrder.true...enable-sort-zone-taborder='true' name='Dashboard 1'>
+      <style />
+      <size maxheight='800' maxwidth='1000' minheight='800' minwidth='1000' />
+      <zones>
+        <zone h='100000' id='4' type-v2='layout-basic' w='100000' x='0' y='0'>
+          <zone h='98000' id='7' param='horz' type-v2='layout-flow' w='98400' x='800' y='1000'>
+            <zone h='98000' id='5' type-v2='layout-basic' w='82400' x='800' y='1000'>
+              <zone h='98000' id='3' name='Sheet 1' w='82400' x='800' y='1000'>
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='4' />
+                </zone-style>
+              </zone>
+            </zone>
+            <zone fixed-size='160' h='98000' id='6' is-fixed='true' param='vert' type-v2='layout-flow' w='16000' x='83200' y='1000'>
+              <zone h='18500' id='8' name='Sheet 1' pane-specification-id='3' param='[federated.0k8udf71tvh30y10r32kh0xpdwxv].[Filière de formation très agrégée (group)]' show-title='false' type-v2='color' w='16000' x='83200' y='1000'>
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='4' />
+                </zone-style>
+              </zone>
+            </zone>
+          </zone>
+          <zone-style>
+            <format attr='border-color' value='#000000' />
+            <format attr='border-style' value='none' />
+            <format attr='border-width' value='0' />
+            <format attr='margin' value='8' />
+          </zone-style>
+        </zone>
+      </zones>
+      <devicelayouts>
+        <devicelayout auto-generated='true' name='Phone'>
+          <size maxheight='700' minheight='700' sizing-mode='vscroll' />
+          <zones>
+            <zone h='100000' id='14' type-v2='layout-basic' w='100000' x='0' y='0'>
+              <zone h='98000' id='13' param='vert' type-v2='layout-flow' w='98400' x='800' y='1000'>
+                <zone fixed-size='280' h='98000' id='3' is-fixed='true' name='Sheet 1' w='82400' x='800' y='1000'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone h='18500' id='8' name='Sheet 1' pane-specification-id='3' param='[federated.0k8udf71tvh30y10r32kh0xpdwxv].[Filière de formation très agrégée (group)]' show-title='false' type-v2='color' w='16000' x='83200' y='1000'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+              </zone>
+              <zone-style>
+                <format attr='border-color' value='#000000' />
+                <format attr='border-style' value='none' />
+                <format attr='border-width' value='0' />
+                <format attr='margin' value='8' />
+              </zone-style>
+            </zone>
+          </zones>
+        </devicelayout>
+      </devicelayouts>
+      <simple-id uuid='{BB090F99-171A-49B5-98CC-ABCFBAB1FD7E}' />
+    </dashboard>
+  </dashboards>
+  <windows source-height='30'>
+    <window class='worksheet' maximized='true' name='Sheet 1'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='3' param='[federated.0k8udf71tvh30y10r32kh0xpdwxv].[Filière de formation très agrégée (group)]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{DEFBE189-266D-4EF5-BED7-CEF5EE9AA079}' />
+    </window>
+    <window class='dashboard' name='Dashboard 1'>
+      <viewpoints>
+        <viewpoint name='Sheet 1'>
+          <zoom type='entire-view' />
+        </viewpoint>
+      </viewpoints>
+      <active id='3' />
+      <simple-id uuid='{D8F25911-6B2E-40DA-B51F-06186A14A013}' />
+    </window>
+  </windows>
+</workbook>
